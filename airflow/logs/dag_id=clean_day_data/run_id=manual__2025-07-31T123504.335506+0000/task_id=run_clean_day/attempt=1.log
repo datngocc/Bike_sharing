@@ -1,0 +1,19 @@
+[2025-07-31T12:35:06.120+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-07-31T12:35:06.188+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: clean_day_data.run_clean_day manual__2025-07-31T12:35:04.335506+00:00 [queued]>
+[2025-07-31T12:35:06.202+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: clean_day_data.run_clean_day manual__2025-07-31T12:35:04.335506+00:00 [queued]>
+[2025-07-31T12:35:06.203+0000] {taskinstance.py:2303} INFO - Starting attempt 1 of 2
+[2025-07-31T12:35:06.224+0000] {taskinstance.py:2327} INFO - Executing <Task(PythonOperator): run_clean_day> on 2025-07-31 12:35:04.335506+00:00
+[2025-07-31T12:35:06.238+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=579) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-07-31T12:35:06.238+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'clean_day_data', 'run_clean_day', 'manual__2025-07-31T12:35:04.335506+00:00', '--job-id', '76', '--raw', '--subdir', 'DAGS_FOLDER/clean_day_data.py', '--cfg-path', '/tmp/tmpa_8950kb']
+[2025-07-31T12:35:06.240+0000] {standard_task_runner.py:63} INFO - Started process 590 to run task
+[2025-07-31T12:35:06.241+0000] {standard_task_runner.py:91} INFO - Job 76: Subtask run_clean_day
+[2025-07-31T12:35:06.260+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/settings.py:195 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-07-31T12:35:06.327+0000] {task_command.py:426} INFO - Running <TaskInstance: clean_day_data.run_clean_day manual__2025-07-31T12:35:04.335506+00:00 [running]> on host b1b2079def93
+[2025-07-31T12:35:06.433+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='datnguyen' AIRFLOW_CTX_DAG_ID='clean_day_data' AIRFLOW_CTX_TASK_ID='run_clean_day' AIRFLOW_CTX_EXECUTION_DATE='2025-07-31T12:35:04.335506+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-31T12:35:04.335506+00:00'
+[2025-07-31T12:35:06.434+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-07-31T12:35:07.821+0000] {python.py:237} INFO - Done. Returned value was: None
+[2025-07-31T12:35:07.822+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-07-31T12:35:07.834+0000] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=clean_day_data, task_id=run_clean_day, execution_date=20250731T123504, start_date=20250731T123506, end_date=20250731T123507
+[2025-07-31T12:35:07.861+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-07-31T12:35:07.878+0000] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-07-31T12:35:07.880+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

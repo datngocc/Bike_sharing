@@ -1,0 +1,67 @@
+[2025-07-31T12:33:22.803+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-07-31T12:33:22.859+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: load_hour_to_snowflake.load_hour_data manual__2025-07-31T12:33:12.321887+00:00 [queued]>
+[2025-07-31T12:33:22.868+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: load_hour_to_snowflake.load_hour_data manual__2025-07-31T12:33:12.321887+00:00 [queued]>
+[2025-07-31T12:33:22.868+0000] {taskinstance.py:2303} INFO - Starting attempt 1 of 1
+[2025-07-31T12:33:22.883+0000] {taskinstance.py:2327} INFO - Executing <Task(SnowflakeOperator): load_hour_data> on 2025-07-31 12:33:12.321887+00:00
+[2025-07-31T12:33:22.912+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=430) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-07-31T12:33:22.916+0000] {standard_task_runner.py:63} INFO - Started process 433 to run task
+[2025-07-31T12:33:22.912+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'load_hour_to_snowflake', 'load_hour_data', 'manual__2025-07-31T12:33:12.321887+00:00', '--job-id', '74', '--raw', '--subdir', 'DAGS_FOLDER/load_hour_to_snowflake.py', '--cfg-path', '/tmp/tmp1lwk170_']
+[2025-07-31T12:33:22.919+0000] {standard_task_runner.py:91} INFO - Job 74: Subtask load_hour_data
+[2025-07-31T12:33:22.952+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/settings.py:195 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-07-31T12:33:23.147+0000] {task_command.py:426} INFO - Running <TaskInstance: load_hour_to_snowflake.load_hour_data manual__2025-07-31T12:33:12.321887+00:00 [running]> on host b1b2079def93
+[2025-07-31T12:33:23.356+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='datnguyen' AIRFLOW_CTX_DAG_ID='load_hour_to_snowflake' AIRFLOW_CTX_TASK_ID='load_hour_data' AIRFLOW_CTX_EXECUTION_DATE='2025-07-31T12:33:12.321887+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-31T12:33:12.321887+00:00'
+[2025-07-31T12:33:23.360+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-07-31T12:33:23.398+0000] {sql.py:276} INFO - Executing: 
+        COPY INTO FACT_BIKE_RENTALS_HOUR (
+        DATETIME_KEY, DATE_KEY, HOUR_KEY,
+        SEASON_KEY, WEATHER_KEY, HOLIDAY_FLAG, WORKINGDAY_FLAG,
+        TEMPERATURE, FEELING_TEMP, HUMIDITY, WINDSPEED,
+        CASUAL, REGISTERED, TOTAL_COUNT
+    )
+    FROM @bike_stage/hour_clean.csv
+    FILE_FORMAT = (
+        TYPE = CSV
+        SKIP_HEADER = 1
+        FIELD_OPTIONALLY_ENCLOSED_BY = '"'
+        ERROR_ON_COLUMN_COUNT_MISMATCH = FALSE
+    )
+    ON_ERROR = 'CONTINUE';
+    
+[2025-07-31T12:33:23.423+0000] {base.py:84} INFO - Using connection ID 'my_snowflake_conn' for task execution.
+[2025-07-31T12:33:23.441+0000] {base.py:84} INFO - Using connection ID 'my_snowflake_conn' for task execution.
+[2025-07-31T12:33:23.442+0000] {connection.py:386} INFO - Snowflake Connector for Python Version: 3.7.1, Python Version: 3.12.2, Platform: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2025-07-31T12:33:23.444+0000] {connection.py:1211} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-07-31T12:33:25.862+0000] {cursor.py:1032} INFO - query: [ALTER SESSION SET autocommit=False]
+[2025-07-31T12:33:26.121+0000] {cursor.py:1045} INFO - query execution done
+[2025-07-31T12:33:26.123+0000] {cursor.py:1205} INFO - Number of results in first chunk: 1
+[2025-07-31T12:33:26.124+0000] {sql.py:457} INFO - Running statement: COPY INTO FACT_BIKE_RENTALS_HOUR (
+        DATETIME_KEY, DATE_KEY, HOUR_KEY,
+        SEASON_KEY, WEATHER_KEY, HOLIDAY_FLAG, WORKINGDAY_FLAG,
+        TEMPERATURE, FEELING_TEMP, HUMIDITY, WINDSPEED,
+        CASUAL, REGISTERED, TOTAL_COUNT
+    )
+    FROM @bike_stage/hour_clean.csv
+    FILE_FORMAT = (
+        TYPE = CSV
+        SKIP_HEADER = 1
+        FIELD_OPTIONALLY_ENCLOSED_BY = '"'
+        ERROR_ON_COLUMN_COUNT_MISMATCH = FALSE
+    )
+    ON_ERROR = 'CONTINUE';, parameters: None
+[2025-07-31T12:33:26.124+0000] {cursor.py:1032} INFO - query: [COPY INTO FACT_BIKE_RENTALS_HOUR ( DATETIME_KEY, DATE_KEY, HOUR_KEY, SEASON_KEY,...]
+[2025-07-31T12:33:31.568+0000] {cursor.py:1045} INFO - query execution done
+[2025-07-31T12:33:31.569+0000] {cursor.py:1205} INFO - Number of results in first chunk: 1
+[2025-07-31T12:33:31.570+0000] {sql.py:466} INFO - Rows affected: 1
+[2025-07-31T12:33:31.571+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/providers/snowflake/hooks/snowflake.py:393 AirflowProviderDeprecationWarning: Call to deprecated method _make_common_data_structure. (The `_make_serializable` method is deprecated and support will be removed in a future version of the common.sql provider. Please update the DbApiHook's provider to a version based on common.sql >= 1.9.1.)
+[2025-07-31T12:33:31.572+0000] {snowflake.py:402} INFO - Rows affected: 1
+[2025-07-31T12:33:31.573+0000] {snowflake.py:403} INFO - Snowflake query id: 01be0e71-0000-a438-0000-a8a10003301e
+[2025-07-31T12:33:31.573+0000] {cursor.py:1032} INFO - query: [COMMIT]
+[2025-07-31T12:33:32.216+0000] {cursor.py:1045} INFO - query execution done
+[2025-07-31T12:33:32.217+0000] {cursor.py:1205} INFO - Number of results in first chunk: 1
+[2025-07-31T12:33:32.217+0000] {connection.py:734} INFO - closed
+[2025-07-31T12:33:32.458+0000] {connection.py:740} INFO - No async queries seem to be running, deleting session
+[2025-07-31T12:33:32.698+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-07-31T12:33:32.726+0000] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=load_hour_to_snowflake, task_id=load_hour_data, execution_date=20250731T123312, start_date=20250731T123322, end_date=20250731T123332
+[2025-07-31T12:33:32.748+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-07-31T12:33:32.768+0000] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-07-31T12:33:32.770+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
