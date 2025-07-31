@@ -1,8 +1,18 @@
 {
-  "name": "Airflow Dev",
-  "dockerComposeFile": "../docker-compose.yaml",
-  "service": "airflow",
-  "workspaceFolder": "/opt/airflow",
-  "extensions": ["ms-python.python"],
+  "name": "airflow-dev",
+  "image": "apache/airflow:2.9.0",
+  "features": {},
+  "postCreateCommand": "pip install -r requirements.txt",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter"
+      ]
+    }
+  },
+  "mounts": [
+    "source=${localWorkspaceFolder}/dags,target=/opt/airflow/dags,type=bind,consistency=cached"
+  ],
   "remoteUser": "airflow"
 }
