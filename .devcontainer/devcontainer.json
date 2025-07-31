@@ -1,0 +1,8 @@
+{
+  "name": "Airflow Dev",
+  "dockerComposeFile": "../docker-compose.yaml",
+  "service": "airflow",
+  "workspaceFolder": "/opt/airflow",
+  "extensions": ["ms-python.python"],
+  "remoteUser": "airflow"
+}
