@@ -81,11 +81,19 @@ erDiagram
 
     DIM_DATE {
         int DATE_KEY
-        date DATE
+        date FULLDATE
         int DAY
         int MONTH
         int YEAR
-        string WEEKDAY
+        int WEEKDAY
+        boolean WEEKEND
+    }
+
+    DIM_HOUR {
+        int HOUR_KEY
+        int HOUR
+        varchar PERIOD_OF_DAY
+        boolean IS_PEAK_HOUR
     }
 
     DIM_SEASON {
@@ -101,9 +109,11 @@ erDiagram
     FACT_BIKE_RENTALS_DAY }|..|| DIM_DATE : "has"
     FACT_BIKE_RENTALS_DAY }|..|| DIM_SEASON : "has"
     FACT_BIKE_RENTALS_DAY }|..|| DIM_WEATHER : "has"
+    FACT_BIKE_RENTALS_DAY }|..|| DIM_HOUR : "has"
     FACT_BIKE_RENTALS_HOUR }|..|| DIM_DATE : "has"
     FACT_BIKE_RENTALS_HOUR }|..|| DIM_SEASON : "has"
     FACT_BIKE_RENTALS_HOUR }|..|| DIM_WEATHER : "has"
+    FACT_BIKE_RENTALS_HOUR }|..|| DIM_HOUR : "has"
 ```
 #Hướng dẫn:
 1.Clone dự án
