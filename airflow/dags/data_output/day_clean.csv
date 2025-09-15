@@ -1,4 +1,4 @@
-date_key,season_key,weather_key,holiday_flag,workingday_flag,temperature,feeling_temp,humidity,windspeed,casual,registered,total_count
+date_key,season_key,weather_key,holiday_flag,workingday_flag,temperature,feeling_temp,humidity,windspeed,casual_count,registered_count,total_count
 20110101,1,2,0,0,0.344167,0.363625,0.805833,0.160446,331,654,985
 20110102,1,2,0,0,0.363478,0.353739,0.696087,0.248539,131,670,801
 20110103,1,1,0,1,0.196364,0.189405,0.437273,0.248309,120,1229,1349

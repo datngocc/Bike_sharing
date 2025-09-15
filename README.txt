@@ -7,34 +7,43 @@ Dự án này sử dụng **Apache Airflow**, **Docker** và **Snowflake** để
 ## 📁 Cấu trúc thư mục
 
 ```bash
-MyProjectDE/
-├── dags/                  # DAG Airflow chính
-|   ├──cleaning/           # Chứa các script xử lý dữ liệu thô
-|   ├──data/               # Dữ liệu được đóng gói trong container   
-|       ├── day.csv
-│       └── hour.csv
-|   ├──data_output/        # Dữ liệu sau xử lý được đóng gói trong container
-│   ├── clean_day_data.py
-│   ├── clean_hour_data.py
-│   ├── load_day_to_snowflake.py
-│   ├── load_hour_to_snowflake.py
-│   └── bike_hour_dag.py (DAG gộp tất cả)
-├── data/                  # Dữ liệu gốc
+Bike_sharing/
+├── airflow/ 
+│   ├── dags/                  # DAG Airflow chính
+│   |   ├──cleaning/           # Chứa các script xử lý dữ liệu thô
+│   |       ├── day_clean.py
+│   |       ├── hour_clean.py
+│   |       ├── dim_date.py
+│   |       ├── dim_hour.py
+│   |   ├──data/               # Dữ liệu được đóng gói trong container   
+│   |       ├── day.csv
+│   │       └── hour.csv
+│   |   ├──data_output/        # Dữ liệu sau xử lý được đóng gói trong container
+│   |       ├── day_clean.csv
+│   |       ├── hour_clean.csv
+│   │   ├── clean_day_data.py
+│   │   ├── clean_hour_data.py
+│   │   ├── load_day_to_snowflake.py
+│   │   ├── load_hour_to_snowflake.py
+│   │   └── bike_hour_dag.py (DAG gộp tất cả)
+│   ├── logs/                   #Ghi lại các tác vụ trong quá trình thực hiện các DAGs nhằm theo dõi và khắc phục nếu có vấn đề xảy ra
+│   └── plugins/
+├── data/                       # Dữ liệu gốc
 │   └── bike_sharing/
 │       ├── day.csv
 │       └── hour.csv
-├── data_output/           # Dữ liệu đã làm sạch (output)
+├── data_output/                # Dữ liệu đã làm sạch (output)
 │   ├── day_clean.csv
 │   └── hour_clean.csv
-├── power BI/              #Chứa file power BI đã trực quan hóa dữ liệu
-├── docker-compose.yaml    # Cấu hình Docker
-└── README.md              # Hướng dẫn sử dụng
+├── power BI/                   #Chứa file power BI đã trực quan hóa dữ liệu
+├── docker-compose.yaml         # Cấu hình Docker
+└── README.md                   # Hướng dẫn sử dụng
 
 #Hướng dẫn:
 1.Clone dự án
 
-    git clone https://github.com/your-username/MyProjectDE.git
-    cd MyProjectDE
+    git clone https://github.com/datngocc/Bike_sharing.git
+    cd Bike_sharing
 
 2.Cấu hình kết nối Snowflake trong Airflow 
 

@@ -1,0 +1,160 @@
+[2025-09-14T20:42:44.321+0000] {processor.py:161} INFO - Started process (PID=185) to work on /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:42:44.323+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cleaning/day_clean.py for tasks to queue
+[2025-09-14T20:42:44.325+0000] {logging_mixin.py:188} INFO - [2025-09-14T20:42:44.324+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:42:44.338+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:42:44.354+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cleaning/day_clean.py took 0.039 seconds
+[2025-09-14T20:43:15.354+0000] {processor.py:161} INFO - Started process (PID=218) to work on /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:43:15.356+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cleaning/day_clean.py for tasks to queue
+[2025-09-14T20:43:15.358+0000] {logging_mixin.py:188} INFO - [2025-09-14T20:43:15.358+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:43:15.374+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:43:15.391+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cleaning/day_clean.py took 0.045 seconds
+[2025-09-14T20:43:45.686+0000] {processor.py:161} INFO - Started process (PID=256) to work on /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:43:45.688+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cleaning/day_clean.py for tasks to queue
+[2025-09-14T20:43:45.689+0000] {logging_mixin.py:188} INFO - [2025-09-14T20:43:45.689+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:43:45.702+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:43:45.723+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cleaning/day_clean.py took 0.043 seconds
+[2025-09-14T20:44:16.203+0000] {processor.py:161} INFO - Started process (PID=291) to work on /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:44:16.204+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cleaning/day_clean.py for tasks to queue
+[2025-09-14T20:44:16.206+0000] {logging_mixin.py:188} INFO - [2025-09-14T20:44:16.206+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:44:16.220+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:44:16.239+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cleaning/day_clean.py took 0.042 seconds
+[2025-09-14T20:44:46.724+0000] {processor.py:161} INFO - Started process (PID=356) to work on /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:44:46.725+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cleaning/day_clean.py for tasks to queue
+[2025-09-14T20:44:46.728+0000] {logging_mixin.py:188} INFO - [2025-09-14T20:44:46.728+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:44:46.743+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:44:46.791+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cleaning/day_clean.py took 0.073 seconds
+[2025-09-14T20:45:18.275+0000] {processor.py:161} INFO - Started process (PID=391) to work on /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:45:18.282+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cleaning/day_clean.py for tasks to queue
+[2025-09-14T20:45:18.348+0000] {logging_mixin.py:188} INFO - [2025-09-14T20:45:18.347+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:45:18.398+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:45:18.495+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cleaning/day_clean.py took 0.253 seconds
+[2025-09-14T20:45:48.789+0000] {processor.py:161} INFO - Started process (PID=426) to work on /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:45:48.791+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cleaning/day_clean.py for tasks to queue
+[2025-09-14T20:45:48.795+0000] {logging_mixin.py:188} INFO - [2025-09-14T20:45:48.794+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:45:48.829+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:45:48.969+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cleaning/day_clean.py took 0.199 seconds
+[2025-09-14T20:46:19.684+0000] {processor.py:161} INFO - Started process (PID=463) to work on /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:46:19.686+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cleaning/day_clean.py for tasks to queue
+[2025-09-14T20:46:19.688+0000] {logging_mixin.py:188} INFO - [2025-09-14T20:46:19.688+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:46:19.708+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:46:19.725+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cleaning/day_clean.py took 0.047 seconds
+[2025-09-14T20:46:50.657+0000] {processor.py:161} INFO - Started process (PID=498) to work on /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:46:50.661+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cleaning/day_clean.py for tasks to queue
+[2025-09-14T20:46:50.664+0000] {logging_mixin.py:188} INFO - [2025-09-14T20:46:50.663+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:46:50.683+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:46:50.737+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cleaning/day_clean.py took 0.091 seconds
+[2025-09-14T20:47:21.709+0000] {processor.py:161} INFO - Started process (PID=533) to work on /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:47:21.711+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cleaning/day_clean.py for tasks to queue
+[2025-09-14T20:47:21.713+0000] {logging_mixin.py:188} INFO - [2025-09-14T20:47:21.713+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:47:21.726+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:47:21.766+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cleaning/day_clean.py took 0.064 seconds
+[2025-09-14T20:47:51.962+0000] {processor.py:161} INFO - Started process (PID=568) to work on /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:47:51.963+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cleaning/day_clean.py for tasks to queue
+[2025-09-14T20:47:51.966+0000] {logging_mixin.py:188} INFO - [2025-09-14T20:47:51.965+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:47:51.979+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:47:51.996+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cleaning/day_clean.py took 0.040 seconds
+[2025-09-14T20:48:22.792+0000] {processor.py:161} INFO - Started process (PID=603) to work on /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:48:22.795+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cleaning/day_clean.py for tasks to queue
+[2025-09-14T20:48:22.798+0000] {logging_mixin.py:188} INFO - [2025-09-14T20:48:22.798+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:48:22.821+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:48:22.852+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cleaning/day_clean.py took 0.071 seconds
+[2025-09-14T20:48:53.799+0000] {processor.py:161} INFO - Started process (PID=638) to work on /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:48:53.800+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cleaning/day_clean.py for tasks to queue
+[2025-09-14T20:48:53.802+0000] {logging_mixin.py:188} INFO - [2025-09-14T20:48:53.802+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:48:53.817+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:48:53.832+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cleaning/day_clean.py took 0.040 seconds
+[2025-09-14T20:49:24.073+0000] {processor.py:161} INFO - Started process (PID=673) to work on /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:49:24.074+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cleaning/day_clean.py for tasks to queue
+[2025-09-14T20:49:24.076+0000] {logging_mixin.py:188} INFO - [2025-09-14T20:49:24.076+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:49:24.089+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:49:24.104+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cleaning/day_clean.py took 0.036 seconds
+[2025-09-14T20:49:54.855+0000] {processor.py:161} INFO - Started process (PID=712) to work on /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:49:54.856+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cleaning/day_clean.py for tasks to queue
+[2025-09-14T20:49:54.859+0000] {logging_mixin.py:188} INFO - [2025-09-14T20:49:54.859+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:49:54.873+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:49:54.889+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cleaning/day_clean.py took 0.041 seconds
+[2025-09-14T20:50:25.187+0000] {processor.py:161} INFO - Started process (PID=747) to work on /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:50:25.188+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cleaning/day_clean.py for tasks to queue
+[2025-09-14T20:50:25.190+0000] {logging_mixin.py:188} INFO - [2025-09-14T20:50:25.189+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:50:25.200+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:50:25.215+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cleaning/day_clean.py took 0.033 seconds
+[2025-09-14T20:50:55.716+0000] {processor.py:161} INFO - Started process (PID=782) to work on /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:50:55.717+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cleaning/day_clean.py for tasks to queue
+[2025-09-14T20:50:55.720+0000] {logging_mixin.py:188} INFO - [2025-09-14T20:50:55.719+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:50:55.730+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:50:55.745+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cleaning/day_clean.py took 0.034 seconds
+[2025-09-14T20:51:26.118+0000] {processor.py:161} INFO - Started process (PID=817) to work on /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:51:26.119+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cleaning/day_clean.py for tasks to queue
+[2025-09-14T20:51:26.121+0000] {logging_mixin.py:188} INFO - [2025-09-14T20:51:26.121+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:51:26.134+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:51:26.149+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cleaning/day_clean.py took 0.036 seconds
+[2025-09-14T20:51:56.603+0000] {processor.py:161} INFO - Started process (PID=852) to work on /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:51:56.604+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cleaning/day_clean.py for tasks to queue
+[2025-09-14T20:51:56.605+0000] {logging_mixin.py:188} INFO - [2025-09-14T20:51:56.605+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:51:56.615+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:51:56.629+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cleaning/day_clean.py took 0.033 seconds
+[2025-09-14T20:52:27.246+0000] {processor.py:161} INFO - Started process (PID=887) to work on /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:52:27.247+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cleaning/day_clean.py for tasks to queue
+[2025-09-14T20:52:27.249+0000] {logging_mixin.py:188} INFO - [2025-09-14T20:52:27.249+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:52:27.267+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:52:27.284+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cleaning/day_clean.py took 0.044 seconds
+[2025-09-14T20:52:57.944+0000] {processor.py:161} INFO - Started process (PID=922) to work on /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:52:57.945+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cleaning/day_clean.py for tasks to queue
+[2025-09-14T20:52:57.947+0000] {logging_mixin.py:188} INFO - [2025-09-14T20:52:57.947+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:52:57.957+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:52:57.970+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cleaning/day_clean.py took 0.031 seconds
+[2025-09-14T20:53:28.474+0000] {processor.py:161} INFO - Started process (PID=957) to work on /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:53:28.475+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cleaning/day_clean.py for tasks to queue
+[2025-09-14T20:53:28.477+0000] {logging_mixin.py:188} INFO - [2025-09-14T20:53:28.476+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:53:28.487+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:53:28.502+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cleaning/day_clean.py took 0.034 seconds
+[2025-09-14T20:53:58.930+0000] {processor.py:161} INFO - Started process (PID=992) to work on /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:53:58.931+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cleaning/day_clean.py for tasks to queue
+[2025-09-14T20:53:58.933+0000] {logging_mixin.py:188} INFO - [2025-09-14T20:53:58.933+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:53:58.944+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:53:58.958+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cleaning/day_clean.py took 0.033 seconds
+[2025-09-14T20:54:29.503+0000] {processor.py:161} INFO - Started process (PID=1027) to work on /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:54:29.504+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cleaning/day_clean.py for tasks to queue
+[2025-09-14T20:54:29.506+0000] {logging_mixin.py:188} INFO - [2025-09-14T20:54:29.506+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:54:29.517+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:54:29.531+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cleaning/day_clean.py took 0.033 seconds
+[2025-09-14T20:54:59.979+0000] {processor.py:161} INFO - Started process (PID=1062) to work on /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:54:59.980+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cleaning/day_clean.py for tasks to queue
+[2025-09-14T20:54:59.982+0000] {logging_mixin.py:188} INFO - [2025-09-14T20:54:59.981+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:54:59.992+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:55:00.006+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cleaning/day_clean.py took 0.033 seconds
+[2025-09-14T20:55:30.568+0000] {processor.py:161} INFO - Started process (PID=1097) to work on /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:55:30.569+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cleaning/day_clean.py for tasks to queue
+[2025-09-14T20:55:30.570+0000] {logging_mixin.py:188} INFO - [2025-09-14T20:55:30.570+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:55:30.581+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:55:30.597+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cleaning/day_clean.py took 0.035 seconds
+[2025-09-14T20:56:01.161+0000] {processor.py:161} INFO - Started process (PID=1132) to work on /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:56:01.162+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cleaning/day_clean.py for tasks to queue
+[2025-09-14T20:56:01.164+0000] {logging_mixin.py:188} INFO - [2025-09-14T20:56:01.163+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:56:01.179+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:56:01.193+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cleaning/day_clean.py took 0.037 seconds
+[2025-09-14T20:56:31.660+0000] {processor.py:161} INFO - Started process (PID=1167) to work on /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:56:31.661+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cleaning/day_clean.py for tasks to queue
+[2025-09-14T20:56:31.662+0000] {logging_mixin.py:188} INFO - [2025-09-14T20:56:31.662+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:56:31.673+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:56:31.687+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cleaning/day_clean.py took 0.033 seconds
+[2025-09-14T20:57:02.120+0000] {processor.py:161} INFO - Started process (PID=1202) to work on /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:57:02.121+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cleaning/day_clean.py for tasks to queue
+[2025-09-14T20:57:02.122+0000] {logging_mixin.py:188} INFO - [2025-09-14T20:57:02.122+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:57:02.134+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:57:02.148+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cleaning/day_clean.py took 0.033 seconds
+[2025-09-14T20:57:32.690+0000] {processor.py:161} INFO - Started process (PID=1237) to work on /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:57:32.691+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cleaning/day_clean.py for tasks to queue
+[2025-09-14T20:57:32.693+0000] {logging_mixin.py:188} INFO - [2025-09-14T20:57:32.693+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:57:32.704+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:57:32.722+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cleaning/day_clean.py took 0.037 seconds
+[2025-09-14T20:58:03.338+0000] {processor.py:161} INFO - Started process (PID=1272) to work on /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:58:03.339+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cleaning/day_clean.py for tasks to queue
+[2025-09-14T20:58:03.342+0000] {logging_mixin.py:188} INFO - [2025-09-14T20:58:03.341+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:58:03.356+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:58:03.372+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cleaning/day_clean.py took 0.041 seconds
+[2025-09-14T20:58:33.995+0000] {processor.py:161} INFO - Started process (PID=1307) to work on /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:58:33.996+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/cleaning/day_clean.py for tasks to queue
+[2025-09-14T20:58:33.999+0000] {logging_mixin.py:188} INFO - [2025-09-14T20:58:33.999+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:58:34.012+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/cleaning/day_clean.py
+[2025-09-14T20:58:34.027+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/cleaning/day_clean.py took 0.037 seconds

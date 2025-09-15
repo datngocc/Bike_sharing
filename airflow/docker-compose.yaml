@@ -1,14 +1,15 @@
-version: '3.8'
+
 
 services:
   postgres:
     image: postgres:15
+    container_name: postgres
     environment:
       POSTGRES_USER: airflow
       POSTGRES_PASSWORD: airflow
-      POSTGRES_DB: airflow
-    volumes:
-      - postgres_db:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
 
   airflow:
     image: apache/airflow:2.9.0

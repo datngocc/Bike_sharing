@@ -19,6 +19,8 @@ def main():
         'holiday': 'holiday_flag',
         'workingday': 'workingday_flag',
         'cnt': 'total_count',
+        'casual': 'casual_count', 
+        'registered': 'registered_count',
         'temp': 'temperature',
         'atemp': 'feeling_temp',
         'hum': 'humidity'
