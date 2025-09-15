@@ -19575,3 +19575,357 @@ File Path                                    PID    Runtime      # DAGs    # Err
 /opt/airflow/dags/cleaning/hour_clean.py                              0           0  0.08s           2025-09-15T11:38:40
 /opt/airflow/dags/cleaning/day_clean.py                               0           0  0.08s           2025-09-15T11:38:55
 ================================================================================
+[2025-09-15T11:39:38.350+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_day_to_snowflake.py                            1           0  0.25s           2025-09-15T11:39:31
+/opt/airflow/dags/clean_day_data.py                                   1           0  0.15s           2025-09-15T11:39:24
+/opt/airflow/dags/load_hour_to_snowflake.py                           1           0  0.14s           2025-09-15T11:39:24
+/opt/airflow/dags/bike_hour_dag.py                                    1           0  0.14s           2025-09-15T11:39:25
+/opt/airflow/dags/clean_hour_data.py                                  1           0  0.12s           2025-09-15T11:39:25
+/opt/airflow/dags/cleaning/day_clean.py                               0           0  0.08s           2025-09-15T11:39:26
+/opt/airflow/dags/cleaning/hour_clean.py                              0           0  0.07s           2025-09-15T11:39:10
+================================================================================
+[2025-09-15T11:40:07.017+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_hour_to_snowflake.py                           1           0  0.22s           2025-09-15T11:39:55
+/opt/airflow/dags/clean_day_data.py                                   1           0  0.22s           2025-09-15T11:39:55
+/opt/airflow/dags/load_day_to_snowflake.py                            1           0  0.16s           2025-09-15T11:40:01
+/opt/airflow/dags/bike_hour_dag.py                                    1           0  0.12s           2025-09-15T11:39:55
+/opt/airflow/dags/clean_hour_data.py                                  1           0  0.12s           2025-09-15T11:39:55
+/opt/airflow/dags/cleaning/day_clean.py                               0           0  0.10s           2025-09-15T11:39:56
+/opt/airflow/dags/cleaning/hour_clean.py                              0           0  0.09s           2025-09-15T11:39:41
+================================================================================
+[2025-09-15T11:40:36.532+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_hour_to_snowflake.py                           1           0  0.16s           2025-09-15T11:40:26
+/opt/airflow/dags/clean_day_data.py                                   1           0  0.15s           2025-09-15T11:40:26
+/opt/airflow/dags/bike_hour_dag.py                                    1           0  0.15s           2025-09-15T11:40:26
+/opt/airflow/dags/clean_hour_data.py                                  1           0  0.12s           2025-09-15T11:40:26
+/opt/airflow/dags/load_day_to_snowflake.py                            1           0  0.12s           2025-09-15T11:40:32
+/opt/airflow/dags/cleaning/hour_clean.py                              0           0  0.10s           2025-09-15T11:40:12
+/opt/airflow/dags/cleaning/day_clean.py                               0           0  0.08s           2025-09-15T11:40:27
+================================================================================
+[2025-09-15T11:41:05.185+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/bike_hour_dag.py                                    1           0  0.20s           2025-09-15T11:40:56
+/opt/airflow/dags/clean_hour_data.py                                  1           0  0.19s           2025-09-15T11:40:56
+/opt/airflow/dags/load_hour_to_snowflake.py                           1           0  0.15s           2025-09-15T11:40:56
+/opt/airflow/dags/clean_day_data.py                                   1           0  0.14s           2025-09-15T11:40:56
+/opt/airflow/dags/load_day_to_snowflake.py                            1           0  0.11s           2025-09-15T11:41:03
+/opt/airflow/dags/cleaning/hour_clean.py                              0           0  0.08s           2025-09-15T11:40:42
+/opt/airflow/dags/cleaning/day_clean.py                               0           0  0.07s           2025-09-15T11:40:57
+================================================================================
+[2025-09-15T11:41:34.663+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_day_to_snowflake.py                            1           0  0.16s           2025-09-15T11:41:33
+/opt/airflow/dags/load_hour_to_snowflake.py                           1           0  0.15s           2025-09-15T11:41:27
+/opt/airflow/dags/clean_day_data.py                                   1           0  0.14s           2025-09-15T11:41:27
+/opt/airflow/dags/bike_hour_dag.py                                    1           0  0.14s           2025-09-15T11:41:27
+/opt/airflow/dags/clean_hour_data.py                                  1           0  0.13s           2025-09-15T11:41:27
+/opt/airflow/dags/cleaning/hour_clean.py                              0           0  0.10s           2025-09-15T11:41:12
+/opt/airflow/dags/cleaning/day_clean.py                               0           0  0.08s           2025-09-15T11:41:28
+================================================================================
+[2025-09-15T11:42:04.104+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_day_to_snowflake.py   10283  0.01s             1           0  0.16s           2025-09-15T11:41:33
+/opt/airflow/dags/load_hour_to_snowflake.py                           1           0  0.16s           2025-09-15T11:41:57
+/opt/airflow/dags/bike_hour_dag.py                                    1           0  0.12s           2025-09-15T11:41:58
+/opt/airflow/dags/clean_day_data.py                                   1           0  0.12s           2025-09-15T11:41:57
+/opt/airflow/dags/clean_hour_data.py                                  1           0  0.11s           2025-09-15T11:41:57
+/opt/airflow/dags/cleaning/hour_clean.py                              0           0  0.09s           2025-09-15T11:41:43
+/opt/airflow/dags/cleaning/day_clean.py                               0           0  0.07s           2025-09-15T11:41:59
+================================================================================
+[2025-09-15T11:42:05.166+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-09-15T11:42:05.301+0000] {manager.py:740} INFO - There are 7 files in /opt/airflow/dags
+[2025-09-15T11:42:32.750+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_hour_to_snowflake.py                           1           0  0.15s           2025-09-15T11:42:28
+/opt/airflow/dags/clean_day_data.py                                   1           0  0.15s           2025-09-15T11:42:28
+/opt/airflow/dags/clean_hour_data.py                                  1           0  0.13s           2025-09-15T11:42:28
+/opt/airflow/dags/bike_hour_dag.py                                    1           0  0.12s           2025-09-15T11:42:28
+/opt/airflow/dags/load_day_to_snowflake.py                            1           0  0.12s           2025-09-15T11:42:04
+/opt/airflow/dags/cleaning/hour_clean.py                              0           0  0.08s           2025-09-15T11:42:14
+/opt/airflow/dags/cleaning/day_clean.py                               0           0  0.08s           2025-09-15T11:42:29
+================================================================================
+[2025-09-15T11:43:02.159+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/clean_day_data.py                                   1           0  0.16s           2025-09-15T11:42:58
+/opt/airflow/dags/load_hour_to_snowflake.py                           1           0  0.16s           2025-09-15T11:42:58
+/opt/airflow/dags/load_day_to_snowflake.py                            1           0  0.13s           2025-09-15T11:42:34
+/opt/airflow/dags/clean_hour_data.py                                  1           0  0.13s           2025-09-15T11:42:59
+/opt/airflow/dags/bike_hour_dag.py                                    1           0  0.12s           2025-09-15T11:42:59
+/opt/airflow/dags/cleaning/hour_clean.py                              0           0  0.08s           2025-09-15T11:42:44
+/opt/airflow/dags/cleaning/day_clean.py                               0           0  0.06s           2025-09-15T11:43:00
+================================================================================
+[2025-09-15T11:43:31.682+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/clean_day_data.py                                   1           0  0.15s           2025-09-15T11:43:29
+/opt/airflow/dags/load_hour_to_snowflake.py                           1           0  0.14s           2025-09-15T11:43:29
+/opt/airflow/dags/bike_hour_dag.py                                    1           0  0.13s           2025-09-15T11:43:29
+/opt/airflow/dags/load_day_to_snowflake.py                            1           0  0.12s           2025-09-15T11:43:04
+/opt/airflow/dags/clean_hour_data.py                                  1           0  0.12s           2025-09-15T11:43:29
+/opt/airflow/dags/cleaning/day_clean.py                               0           0  0.07s           2025-09-15T11:43:30
+/opt/airflow/dags/cleaning/hour_clean.py                              0           0  0.07s           2025-09-15T11:43:15
+================================================================================
+[2025-09-15T11:44:00.302+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/clean_day_data.py                                   1           0  0.16s           2025-09-15T11:44:00
+/opt/airflow/dags/load_hour_to_snowflake.py                           1           0  0.16s           2025-09-15T11:44:00
+/opt/airflow/dags/load_day_to_snowflake.py                            1           0  0.14s           2025-09-15T11:43:35
+/opt/airflow/dags/clean_hour_data.py                                  1           0  0.13s           2025-09-15T11:44:00
+/opt/airflow/dags/bike_hour_dag.py                                    1           0  0.12s           2025-09-15T11:44:00
+/opt/airflow/dags/cleaning/day_clean.py                               0           0  0.07s           2025-09-15T11:43:30
+/opt/airflow/dags/cleaning/hour_clean.py                              0           0  0.07s           2025-09-15T11:43:45
+================================================================================
+[2025-09-15T11:44:29.442+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_day_to_snowflake.py                            1           0  0.17s           2025-09-15T11:44:06
+/opt/airflow/dags/clean_day_data.py                                   1           0  0.16s           2025-09-15T11:44:00
+/opt/airflow/dags/load_hour_to_snowflake.py                           1           0  0.16s           2025-09-15T11:44:00
+/opt/airflow/dags/clean_hour_data.py                                  1           0  0.13s           2025-09-15T11:44:00
+/opt/airflow/dags/bike_hour_dag.py                                    1           0  0.12s           2025-09-15T11:44:00
+/opt/airflow/dags/cleaning/day_clean.py                               0           0  0.08s           2025-09-15T11:44:01
+/opt/airflow/dags/cleaning/hour_clean.py                              0           0  0.08s           2025-09-15T11:44:16
+================================================================================
+[2025-09-15T11:44:58.950+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_day_to_snowflake.py                            1           0  0.12s           2025-09-15T11:44:36
+/opt/airflow/dags/clean_hour_data.py                                  1           0  0.12s           2025-09-15T11:44:30
+/opt/airflow/dags/cleaning/day_clean.py                               0           0  0.08s           2025-09-15T11:44:31
+/opt/airflow/dags/cleaning/hour_clean.py                              0           0  0.07s           2025-09-15T11:44:46
+/opt/airflow/dags/clean_day_data.py                                   1           0  -0.48s          2025-09-15T11:44:30
+/opt/airflow/dags/load_hour_to_snowflake.py                           1           0  -0.48s          2025-09-15T11:44:30
+/opt/airflow/dags/bike_hour_dag.py                                    1           0  -0.64s          2025-09-15T11:44:29
+================================================================================
+[2025-09-15T11:45:27.057+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/clean_day_data.py                                   1           0  0.14s           2025-09-15T11:45:00
+/opt/airflow/dags/load_hour_to_snowflake.py                           1           0  0.14s           2025-09-15T11:45:00
+/opt/airflow/dags/bike_hour_dag.py                                    1           0  0.13s           2025-09-15T11:44:59
+/opt/airflow/dags/load_day_to_snowflake.py                            1           0  0.12s           2025-09-15T11:45:07
+/opt/airflow/dags/clean_hour_data.py                                  1           0  0.12s           2025-09-15T11:45:00
+/opt/airflow/dags/cleaning/hour_clean.py                              0           0  0.12s           2025-09-15T11:45:17
+/opt/airflow/dags/cleaning/day_clean.py                               0           0  0.07s           2025-09-15T11:45:01
+================================================================================
+[2025-09-15T11:45:56.110+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/clean_day_data.py                                   1           0  0.58s           2025-09-15T11:45:31
+/opt/airflow/dags/load_hour_to_snowflake.py                           1           0  0.57s           2025-09-15T11:45:31
+/opt/airflow/dags/clean_hour_data.py                                  1           0  0.29s           2025-09-15T11:45:32
+/opt/airflow/dags/load_day_to_snowflake.py                            1           0  0.18s           2025-09-15T11:45:37
+/opt/airflow/dags/bike_hour_dag.py                                    1           0  0.15s           2025-09-15T11:45:30
+/opt/airflow/dags/cleaning/day_clean.py                               0           0  0.09s           2025-09-15T11:45:32
+/opt/airflow/dags/cleaning/hour_clean.py                              0           0  0.08s           2025-09-15T11:45:47
+================================================================================
+[2025-09-15T11:46:24.722+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_day_to_snowflake.py                            1           0  0.16s           2025-09-15T11:46:07
+/opt/airflow/dags/bike_hour_dag.py                                    1           0  0.15s           2025-09-15T11:46:01
+/opt/airflow/dags/load_hour_to_snowflake.py                           1           0  0.15s           2025-09-15T11:46:02
+/opt/airflow/dags/clean_day_data.py                                   1           0  0.14s           2025-09-15T11:46:02
+/opt/airflow/dags/clean_hour_data.py                                  1           0  0.13s           2025-09-15T11:46:02
+/opt/airflow/dags/cleaning/day_clean.py                               0           0  0.09s           2025-09-15T11:46:02
+/opt/airflow/dags/cleaning/hour_clean.py                              0           0  0.07s           2025-09-15T11:46:17
+================================================================================
+[2025-09-15T11:46:53.518+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/clean_hour_data.py                                  1           0  0.28s           2025-09-15T11:46:33
+/opt/airflow/dags/bike_hour_dag.py                                    1           0  0.24s           2025-09-15T11:46:32
+/opt/airflow/dags/load_hour_to_snowflake.py                           1           0  0.23s           2025-09-15T11:46:33
+/opt/airflow/dags/clean_day_data.py                                   1           0  0.23s           2025-09-15T11:46:33
+/opt/airflow/dags/load_day_to_snowflake.py                            1           0  0.19s           2025-09-15T11:46:38
+/opt/airflow/dags/cleaning/hour_clean.py                              0           0  0.11s           2025-09-15T11:46:48
+/opt/airflow/dags/cleaning/day_clean.py                               0           0  0.11s           2025-09-15T11:46:33
+================================================================================
+[2025-09-15T11:47:06.035+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-09-15T11:47:06.156+0000] {manager.py:740} INFO - There are 7 files in /opt/airflow/dags
+[2025-09-15T11:47:22.158+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_day_to_snowflake.py                            1           0  0.24s           2025-09-15T11:47:09
+/opt/airflow/dags/clean_hour_data.py                                  1           0  0.17s           2025-09-15T11:47:04
+/opt/airflow/dags/clean_day_data.py                                   1           0  0.16s           2025-09-15T11:47:03
+/opt/airflow/dags/load_hour_to_snowflake.py                           1           0  0.15s           2025-09-15T11:47:03
+/opt/airflow/dags/bike_hour_dag.py                                    1           0  0.14s           2025-09-15T11:47:02
+/opt/airflow/dags/cleaning/hour_clean.py                              0           0  0.10s           2025-09-15T11:47:19
+/opt/airflow/dags/cleaning/day_clean.py                               0           0  0.09s           2025-09-15T11:47:03
+================================================================================
+[2025-09-15T11:47:50.793+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/bike_hour_dag.py                                    1           0  0.20s           2025-09-15T11:47:33
+/opt/airflow/dags/load_hour_to_snowflake.py                           1           0  0.18s           2025-09-15T11:47:34
+/opt/airflow/dags/clean_day_data.py                                   1           0  0.18s           2025-09-15T11:47:34
+/opt/airflow/dags/clean_hour_data.py                                  1           0  0.15s           2025-09-15T11:47:34
+/opt/airflow/dags/load_day_to_snowflake.py                            1           0  0.13s           2025-09-15T11:47:39
+/opt/airflow/dags/cleaning/day_clean.py                               0           0  0.11s           2025-09-15T11:47:34
+/opt/airflow/dags/cleaning/hour_clean.py                              0           0  0.07s           2025-09-15T11:47:50
+================================================================================
+[2025-09-15T11:48:19.563+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_day_to_snowflake.py                            1           0  0.40s           2025-09-15T11:48:10
+/opt/airflow/dags/bike_hour_dag.py                                    1           0  0.14s           2025-09-15T11:48:04
+/opt/airflow/dags/load_hour_to_snowflake.py                           1           0  0.12s           2025-09-15T11:48:05
+/opt/airflow/dags/clean_day_data.py                                   1           0  0.12s           2025-09-15T11:48:05
+/opt/airflow/dags/clean_hour_data.py                                  1           0  0.12s           2025-09-15T11:48:05
+/opt/airflow/dags/cleaning/day_clean.py                               0           0  0.08s           2025-09-15T11:48:05
+/opt/airflow/dags/cleaning/hour_clean.py                              0           0  0.07s           2025-09-15T11:47:50
+================================================================================
+[2025-09-15T11:48:48.801+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/bike_hour_dag.py                                    1           0  0.19s           2025-09-15T11:48:34
+/opt/airflow/dags/clean_day_data.py                                   1           0  0.16s           2025-09-15T11:48:35
+/opt/airflow/dags/load_hour_to_snowflake.py                           1           0  0.16s           2025-09-15T11:48:35
+/opt/airflow/dags/cleaning/hour_clean.py                              0           0  0.16s           2025-09-15T11:48:20
+/opt/airflow/dags/clean_hour_data.py                                  1           0  0.15s           2025-09-15T11:48:35
+/opt/airflow/dags/load_day_to_snowflake.py                            1           0  0.11s           2025-09-15T11:48:41
+/opt/airflow/dags/cleaning/day_clean.py                               0           0  0.11s           2025-09-15T11:48:35
+================================================================================
+[2025-09-15T11:49:18.270+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_day_to_snowflake.py                            1           0  0.18s           2025-09-15T11:49:11
+/opt/airflow/dags/load_hour_to_snowflake.py                           1           0  0.14s           2025-09-15T11:49:06
+/opt/airflow/dags/bike_hour_dag.py                                    1           0  0.13s           2025-09-15T11:49:05
+/opt/airflow/dags/clean_day_data.py                                   1           0  0.13s           2025-09-15T11:49:06
+/opt/airflow/dags/clean_hour_data.py                                  1           0  0.12s           2025-09-15T11:49:06
+/opt/airflow/dags/cleaning/hour_clean.py                              0           0  0.09s           2025-09-15T11:48:50
+/opt/airflow/dags/cleaning/day_clean.py                               0           0  0.08s           2025-09-15T11:49:06
+================================================================================
+[2025-09-15T11:49:47.728+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/bike_hour_dag.py                                    1           0  0.14s           2025-09-15T11:49:35
+/opt/airflow/dags/clean_hour_data.py                                  1           0  0.14s           2025-09-15T11:49:36
+/opt/airflow/dags/clean_day_data.py                                   1           0  0.13s           2025-09-15T11:49:36
+/opt/airflow/dags/load_hour_to_snowflake.py                           1           0  0.13s           2025-09-15T11:49:36
+/opt/airflow/dags/load_day_to_snowflake.py                            1           0  0.10s           2025-09-15T11:49:42
+/opt/airflow/dags/cleaning/day_clean.py                               0           0  0.08s           2025-09-15T11:49:36
+/opt/airflow/dags/cleaning/hour_clean.py                              0           0  0.08s           2025-09-15T11:49:21
+================================================================================
+[2025-09-15T11:50:17.251+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_day_to_snowflake.py                            1           0  0.15s           2025-09-15T11:50:12
+/opt/airflow/dags/clean_day_data.py                                   1           0  0.14s           2025-09-15T11:50:07
+/opt/airflow/dags/clean_hour_data.py                                  1           0  0.14s           2025-09-15T11:50:07
+/opt/airflow/dags/bike_hour_dag.py                                    1           0  0.14s           2025-09-15T11:50:06
+/opt/airflow/dags/load_hour_to_snowflake.py                           1           0  0.12s           2025-09-15T11:50:07
+/opt/airflow/dags/cleaning/hour_clean.py                              0           0  0.12s           2025-09-15T11:49:51
+/opt/airflow/dags/cleaning/day_clean.py                               0           0  0.07s           2025-09-15T11:50:07
+================================================================================
+[2025-09-15T11:50:46.038+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/clean_day_data.py                                   1           0  0.35s           2025-09-15T11:50:38
+/opt/airflow/dags/clean_hour_data.py                                  1           0  0.30s           2025-09-15T11:50:38
+/opt/airflow/dags/load_hour_to_snowflake.py                           1           0  0.24s           2025-09-15T11:50:37
+/opt/airflow/dags/bike_hour_dag.py                                    1           0  0.18s           2025-09-15T11:50:36
+/opt/airflow/dags/cleaning/day_clean.py                               0           0  0.15s           2025-09-15T11:50:37
+/opt/airflow/dags/load_day_to_snowflake.py                            1           0  0.15s           2025-09-15T11:50:43
+/opt/airflow/dags/cleaning/hour_clean.py                              0           0  0.08s           2025-09-15T11:50:22
+================================================================================
+[2025-09-15T11:51:14.770+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_day_to_snowflake.py                            1           0  0.18s           2025-09-15T11:51:13
+/opt/airflow/dags/bike_hour_dag.py                                    1           0  0.13s           2025-09-15T11:51:07
+/opt/airflow/dags/cleaning/hour_clean.py                              0           0  0.12s           2025-09-15T11:50:53
+/opt/airflow/dags/clean_hour_data.py                                  1           0  0.12s           2025-09-15T11:51:08
+/opt/airflow/dags/clean_day_data.py                                   1           0  0.12s           2025-09-15T11:51:08
+/opt/airflow/dags/load_hour_to_snowflake.py                           1           0  0.11s           2025-09-15T11:51:08
+/opt/airflow/dags/cleaning/day_clean.py                               0           0  0.06s           2025-09-15T11:51:08
+================================================================================
