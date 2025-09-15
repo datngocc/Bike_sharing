@@ -39,18 +39,37 @@ Bike_sharing/
 ├── power BI/                   #Chứa file power BI đã trực quan hóa dữ liệu
 ├── docker-compose.yaml         # Cấu hình Docker
 └── README.md                   # Hướng dẫn sử dụng
-
+```
 
 ## 📊 Data Warehouse Schema (Star Schema)
 
 ```mermaid
 erDiagram
     FACT_BIKE_RENTALS_DAY {
+        int RENTAL_ID
         int DATE_KEY
         int SEASON_KEY
         int WEATHER_KEY
         int HOLIDAY_FLAG
         int WORKINGDAY_FLAG
+        float TEMPERATURE
+        float FEELING_TEMP
+        float HUMIDITY
+        float WINDSPEED
+        int CASUAL_COUNT
+        int REGISTERED_COUNT
+        int TOTAL_COUNT
+    }
+
+    FACT_BIKE_RENTALS_HOUR {
+        int RENTAL_ID
+        int DATETIME_KEY
+        int DATE_KEY
+        INT HOUR_KEY
+        int SEASON_KEY
+        int WEATHER_KEY
+        boolean HOLIDAY_FLAG
+        boolean WORKINGDAY_FLAG
         float TEMPERATURE
         float FEELING_TEMP
         float HUMIDITY
@@ -82,7 +101,10 @@ erDiagram
     FACT_BIKE_RENTALS_DAY }|..|| DIM_DATE : "has"
     FACT_BIKE_RENTALS_DAY }|..|| DIM_SEASON : "has"
     FACT_BIKE_RENTALS_DAY }|..|| DIM_WEATHER : "has"
-
+    FACT_BIKE_RENTALS_HOUR }|..|| DIM_DATE : "has"
+    FACT_BIKE_RENTALS_HOUR }|..|| DIM_SEASON : "has"
+    FACT_BIKE_RENTALS_HOUR }|..|| DIM_WEATHER : "has"
+```
 #Hướng dẫn:
 1.Clone dự án
 
