@@ -109,7 +109,6 @@ erDiagram
     FACT_BIKE_RENTALS_DAY }|..|| DIM_DATE : "has"
     FACT_BIKE_RENTALS_DAY }|..|| DIM_SEASON : "has"
     FACT_BIKE_RENTALS_DAY }|..|| DIM_WEATHER : "has"
-    FACT_BIKE_RENTALS_DAY }|..|| DIM_HOUR : "has"
     FACT_BIKE_RENTALS_HOUR }|..|| DIM_DATE : "has"
     FACT_BIKE_RENTALS_HOUR }|..|| DIM_SEASON : "has"
     FACT_BIKE_RENTALS_HOUR }|..|| DIM_WEATHER : "has"
