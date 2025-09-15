@@ -4072,3 +4072,171 @@
 [2025-09-15T11:38:54.648+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:38:54.647+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2025-09-15T11:38:54.675+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:38:54.674+0000] {dag.py:3954} INFO - Setting next_dagrun for bike_hour_pipeline to 2025-09-14 00:00:00+00:00, run_after=2025-09-15 00:00:00+00:00
 [2025-09-15T11:38:54.701+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bike_hour_dag.py took 0.112 seconds
+[2025-09-15T11:39:25.037+0000] {processor.py:161} INFO - Started process (PID=10098) to work on /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:39:25.038+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bike_hour_dag.py for tasks to queue
+[2025-09-15T11:39:25.039+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:39:25.039+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:39:25.060+0000] {processor.py:840} INFO - DAG(s) 'bike_hour_pipeline' retrieved from /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:39:25.091+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:39:25.091+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-09-15T11:39:25.121+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:39:25.121+0000] {dag.py:3954} INFO - Setting next_dagrun for bike_hour_pipeline to 2025-09-14 00:00:00+00:00, run_after=2025-09-15 00:00:00+00:00
+[2025-09-15T11:39:25.142+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bike_hour_dag.py took 0.113 seconds
+[2025-09-15T11:39:55.656+0000] {processor.py:161} INFO - Started process (PID=10133) to work on /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:39:55.657+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bike_hour_dag.py for tasks to queue
+[2025-09-15T11:39:55.658+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:39:55.658+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:39:55.678+0000] {processor.py:840} INFO - DAG(s) 'bike_hour_pipeline' retrieved from /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:39:55.705+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:39:55.705+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-09-15T11:39:55.726+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:39:55.726+0000] {dag.py:3954} INFO - Setting next_dagrun for bike_hour_pipeline to 2025-09-14 00:00:00+00:00, run_after=2025-09-15 00:00:00+00:00
+[2025-09-15T11:39:55.745+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bike_hour_dag.py took 0.095 seconds
+[2025-09-15T11:40:26.333+0000] {processor.py:161} INFO - Started process (PID=10168) to work on /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:40:26.334+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bike_hour_dag.py for tasks to queue
+[2025-09-15T11:40:26.335+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:40:26.335+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:40:26.358+0000] {processor.py:840} INFO - DAG(s) 'bike_hour_pipeline' retrieved from /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:40:26.386+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:40:26.386+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-09-15T11:40:26.407+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:40:26.406+0000] {dag.py:3954} INFO - Setting next_dagrun for bike_hour_pipeline to 2025-09-14 00:00:00+00:00, run_after=2025-09-15 00:00:00+00:00
+[2025-09-15T11:40:26.429+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bike_hour_dag.py took 0.103 seconds
+[2025-09-15T11:40:56.727+0000] {processor.py:161} INFO - Started process (PID=10201) to work on /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:40:56.729+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bike_hour_dag.py for tasks to queue
+[2025-09-15T11:40:56.730+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:40:56.730+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:40:56.761+0000] {processor.py:840} INFO - DAG(s) 'bike_hour_pipeline' retrieved from /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:40:56.798+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:40:56.798+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-09-15T11:40:56.833+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:40:56.832+0000] {dag.py:3954} INFO - Setting next_dagrun for bike_hour_pipeline to 2025-09-14 00:00:00+00:00, run_after=2025-09-15 00:00:00+00:00
+[2025-09-15T11:40:56.879+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bike_hour_dag.py took 0.159 seconds
+[2025-09-15T11:41:27.505+0000] {processor.py:161} INFO - Started process (PID=10238) to work on /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:41:27.506+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bike_hour_dag.py for tasks to queue
+[2025-09-15T11:41:27.507+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:41:27.507+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:41:27.530+0000] {processor.py:840} INFO - DAG(s) 'bike_hour_pipeline' retrieved from /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:41:27.560+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:41:27.560+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-09-15T11:41:27.583+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:41:27.583+0000] {dag.py:3954} INFO - Setting next_dagrun for bike_hour_pipeline to 2025-09-14 00:00:00+00:00, run_after=2025-09-15 00:00:00+00:00
+[2025-09-15T11:41:27.604+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bike_hour_dag.py took 0.106 seconds
+[2025-09-15T11:41:58.028+0000] {processor.py:161} INFO - Started process (PID=10273) to work on /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:41:58.029+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bike_hour_dag.py for tasks to queue
+[2025-09-15T11:41:58.030+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:41:58.030+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:41:58.051+0000] {processor.py:840} INFO - DAG(s) 'bike_hour_pipeline' retrieved from /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:41:58.077+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:41:58.077+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-09-15T11:41:58.097+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:41:58.096+0000] {dag.py:3954} INFO - Setting next_dagrun for bike_hour_pipeline to 2025-09-14 00:00:00+00:00, run_after=2025-09-15 00:00:00+00:00
+[2025-09-15T11:41:58.115+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bike_hour_dag.py took 0.093 seconds
+[2025-09-15T11:42:28.634+0000] {processor.py:161} INFO - Started process (PID=10308) to work on /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:42:28.635+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bike_hour_dag.py for tasks to queue
+[2025-09-15T11:42:28.636+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:42:28.636+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:42:28.658+0000] {processor.py:840} INFO - DAG(s) 'bike_hour_pipeline' retrieved from /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:42:28.684+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:42:28.684+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-09-15T11:42:28.703+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:42:28.703+0000] {dag.py:3954} INFO - Setting next_dagrun for bike_hour_pipeline to 2025-09-14 00:00:00+00:00, run_after=2025-09-15 00:00:00+00:00
+[2025-09-15T11:42:28.722+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bike_hour_dag.py took 0.094 seconds
+[2025-09-15T11:42:59.096+0000] {processor.py:161} INFO - Started process (PID=10343) to work on /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:42:59.097+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bike_hour_dag.py for tasks to queue
+[2025-09-15T11:42:59.098+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:42:59.097+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:42:59.117+0000] {processor.py:840} INFO - DAG(s) 'bike_hour_pipeline' retrieved from /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:42:59.142+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:42:59.142+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-09-15T11:42:59.164+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:42:59.164+0000] {dag.py:3954} INFO - Setting next_dagrun for bike_hour_pipeline to 2025-09-14 00:00:00+00:00, run_after=2025-09-15 00:00:00+00:00
+[2025-09-15T11:42:59.183+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bike_hour_dag.py took 0.093 seconds
+[2025-09-15T11:43:29.661+0000] {processor.py:161} INFO - Started process (PID=10378) to work on /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:43:29.662+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bike_hour_dag.py for tasks to queue
+[2025-09-15T11:43:29.663+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:43:29.663+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:43:29.684+0000] {processor.py:840} INFO - DAG(s) 'bike_hour_pipeline' retrieved from /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:43:29.722+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:43:29.721+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-09-15T11:43:29.740+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:43:29.740+0000] {dag.py:3954} INFO - Setting next_dagrun for bike_hour_pipeline to 2025-09-14 00:00:00+00:00, run_after=2025-09-15 00:00:00+00:00
+[2025-09-15T11:43:29.760+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bike_hour_dag.py took 0.105 seconds
+[2025-09-15T11:44:00.196+0000] {processor.py:161} INFO - Started process (PID=10413) to work on /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:44:00.197+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bike_hour_dag.py for tasks to queue
+[2025-09-15T11:44:00.198+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:44:00.198+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:44:00.217+0000] {processor.py:840} INFO - DAG(s) 'bike_hour_pipeline' retrieved from /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:44:00.243+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:44:00.243+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-09-15T11:44:00.265+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:44:00.264+0000] {dag.py:3954} INFO - Setting next_dagrun for bike_hour_pipeline to 2025-09-14 00:00:00+00:00, run_after=2025-09-15 00:00:00+00:00
+[2025-09-15T11:44:00.283+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bike_hour_dag.py took 0.093 seconds
+[2025-09-15T11:44:30.164+0000] {processor.py:161} INFO - Started process (PID=10448) to work on /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:44:30.165+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bike_hour_dag.py for tasks to queue
+[2025-09-15T11:44:30.166+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:44:30.166+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:44:30.185+0000] {processor.py:840} INFO - DAG(s) 'bike_hour_pipeline' retrieved from /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:44:30.211+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:44:30.211+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-09-15T11:44:30.230+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:44:30.230+0000] {dag.py:3954} INFO - Setting next_dagrun for bike_hour_pipeline to 2025-09-14 00:00:00+00:00, run_after=2025-09-15 00:00:00+00:00
+[2025-09-15T11:44:29.490+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bike_hour_dag.py took 0.100 seconds
+[2025-09-15T11:44:59.616+0000] {processor.py:161} INFO - Started process (PID=10468) to work on /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:44:59.617+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bike_hour_dag.py for tasks to queue
+[2025-09-15T11:44:59.618+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:44:59.618+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:44:59.636+0000] {processor.py:840} INFO - DAG(s) 'bike_hour_pipeline' retrieved from /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:44:59.669+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:44:59.669+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-09-15T11:44:59.690+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:44:59.690+0000] {dag.py:3954} INFO - Setting next_dagrun for bike_hour_pipeline to 2025-09-14 00:00:00+00:00, run_after=2025-09-15 00:00:00+00:00
+[2025-09-15T11:44:59.711+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bike_hour_dag.py took 0.100 seconds
+[2025-09-15T11:45:30.128+0000] {processor.py:161} INFO - Started process (PID=10503) to work on /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:45:30.129+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bike_hour_dag.py for tasks to queue
+[2025-09-15T11:45:30.130+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:45:30.130+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:45:30.158+0000] {processor.py:840} INFO - DAG(s) 'bike_hour_pipeline' retrieved from /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:45:30.191+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:45:30.190+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-09-15T11:45:30.215+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:45:30.215+0000] {dag.py:3954} INFO - Setting next_dagrun for bike_hour_pipeline to 2025-09-14 00:00:00+00:00, run_after=2025-09-15 00:00:00+00:00
+[2025-09-15T11:45:30.235+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bike_hour_dag.py took 0.117 seconds
+[2025-09-15T11:46:01.249+0000] {processor.py:161} INFO - Started process (PID=10538) to work on /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:46:01.251+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bike_hour_dag.py for tasks to queue
+[2025-09-15T11:46:01.251+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:46:01.251+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:46:01.271+0000] {processor.py:840} INFO - DAG(s) 'bike_hour_pipeline' retrieved from /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:46:01.298+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:46:01.298+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-09-15T11:46:01.319+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:46:01.318+0000] {dag.py:3954} INFO - Setting next_dagrun for bike_hour_pipeline to 2025-09-14 00:00:00+00:00, run_after=2025-09-15 00:00:00+00:00
+[2025-09-15T11:46:01.342+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bike_hour_dag.py took 0.098 seconds
+[2025-09-15T11:46:31.975+0000] {processor.py:161} INFO - Started process (PID=10573) to work on /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:46:31.977+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bike_hour_dag.py for tasks to queue
+[2025-09-15T11:46:31.978+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:46:31.978+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:46:32.004+0000] {processor.py:840} INFO - DAG(s) 'bike_hour_pipeline' retrieved from /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:46:32.060+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:46:32.059+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-09-15T11:46:32.105+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:46:32.104+0000] {dag.py:3954} INFO - Setting next_dagrun for bike_hour_pipeline to 2025-09-14 00:00:00+00:00, run_after=2025-09-15 00:00:00+00:00
+[2025-09-15T11:46:32.148+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bike_hour_dag.py took 0.179 seconds
+[2025-09-15T11:47:02.734+0000] {processor.py:161} INFO - Started process (PID=10608) to work on /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:47:02.735+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bike_hour_dag.py for tasks to queue
+[2025-09-15T11:47:02.736+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:47:02.735+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:47:02.756+0000] {processor.py:840} INFO - DAG(s) 'bike_hour_pipeline' retrieved from /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:47:02.788+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:47:02.788+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-09-15T11:47:02.819+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:47:02.819+0000] {dag.py:3954} INFO - Setting next_dagrun for bike_hour_pipeline to 2025-09-14 00:00:00+00:00, run_after=2025-09-15 00:00:00+00:00
+[2025-09-15T11:47:02.840+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bike_hour_dag.py took 0.112 seconds
+[2025-09-15T11:47:33.435+0000] {processor.py:161} INFO - Started process (PID=10643) to work on /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:47:33.437+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bike_hour_dag.py for tasks to queue
+[2025-09-15T11:47:33.439+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:47:33.438+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:47:33.474+0000] {processor.py:840} INFO - DAG(s) 'bike_hour_pipeline' retrieved from /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:47:33.516+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:47:33.515+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-09-15T11:47:33.542+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:47:33.542+0000] {dag.py:3954} INFO - Setting next_dagrun for bike_hour_pipeline to 2025-09-14 00:00:00+00:00, run_after=2025-09-15 00:00:00+00:00
+[2025-09-15T11:47:33.578+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bike_hour_dag.py took 0.153 seconds
+[2025-09-15T11:48:03.996+0000] {processor.py:161} INFO - Started process (PID=10678) to work on /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:48:03.997+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bike_hour_dag.py for tasks to queue
+[2025-09-15T11:48:03.998+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:48:03.997+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:48:04.027+0000] {processor.py:840} INFO - DAG(s) 'bike_hour_pipeline' retrieved from /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:48:04.057+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:48:04.057+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-09-15T11:48:04.079+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:48:04.079+0000] {dag.py:3954} INFO - Setting next_dagrun for bike_hour_pipeline to 2025-09-14 00:00:00+00:00, run_after=2025-09-15 00:00:00+00:00
+[2025-09-15T11:48:04.103+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bike_hour_dag.py took 0.113 seconds
+[2025-09-15T11:48:34.534+0000] {processor.py:161} INFO - Started process (PID=10713) to work on /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:48:34.536+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bike_hour_dag.py for tasks to queue
+[2025-09-15T11:48:34.537+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:48:34.536+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:48:34.568+0000] {processor.py:840} INFO - DAG(s) 'bike_hour_pipeline' retrieved from /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:48:34.597+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:48:34.597+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-09-15T11:48:34.622+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:48:34.622+0000] {dag.py:3954} INFO - Setting next_dagrun for bike_hour_pipeline to 2025-09-14 00:00:00+00:00, run_after=2025-09-15 00:00:00+00:00
+[2025-09-15T11:48:34.659+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bike_hour_dag.py took 0.133 seconds
+[2025-09-15T11:49:05.130+0000] {processor.py:161} INFO - Started process (PID=10748) to work on /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:49:05.131+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bike_hour_dag.py for tasks to queue
+[2025-09-15T11:49:05.132+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:49:05.132+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:49:05.152+0000] {processor.py:840} INFO - DAG(s) 'bike_hour_pipeline' retrieved from /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:49:05.178+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:49:05.178+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-09-15T11:49:05.199+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:49:05.198+0000] {dag.py:3954} INFO - Setting next_dagrun for bike_hour_pipeline to 2025-09-14 00:00:00+00:00, run_after=2025-09-15 00:00:00+00:00
+[2025-09-15T11:49:05.225+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bike_hour_dag.py took 0.100 seconds
+[2025-09-15T11:49:35.612+0000] {processor.py:161} INFO - Started process (PID=10783) to work on /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:49:35.614+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bike_hour_dag.py for tasks to queue
+[2025-09-15T11:49:35.615+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:49:35.614+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:49:35.639+0000] {processor.py:840} INFO - DAG(s) 'bike_hour_pipeline' retrieved from /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:49:35.670+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:49:35.670+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-09-15T11:49:35.693+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:49:35.692+0000] {dag.py:3954} INFO - Setting next_dagrun for bike_hour_pipeline to 2025-09-14 00:00:00+00:00, run_after=2025-09-15 00:00:00+00:00
+[2025-09-15T11:49:35.714+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bike_hour_dag.py took 0.108 seconds
+[2025-09-15T11:50:06.165+0000] {processor.py:161} INFO - Started process (PID=10818) to work on /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:50:06.166+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bike_hour_dag.py for tasks to queue
+[2025-09-15T11:50:06.167+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:50:06.166+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:50:06.190+0000] {processor.py:840} INFO - DAG(s) 'bike_hour_pipeline' retrieved from /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:50:06.220+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:50:06.220+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-09-15T11:50:06.241+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:50:06.240+0000] {dag.py:3954} INFO - Setting next_dagrun for bike_hour_pipeline to 2025-09-14 00:00:00+00:00, run_after=2025-09-15 00:00:00+00:00
+[2025-09-15T11:50:06.261+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bike_hour_dag.py took 0.101 seconds
+[2025-09-15T11:50:36.647+0000] {processor.py:161} INFO - Started process (PID=10853) to work on /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:50:36.648+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bike_hour_dag.py for tasks to queue
+[2025-09-15T11:50:36.649+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:50:36.649+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:50:36.673+0000] {processor.py:840} INFO - DAG(s) 'bike_hour_pipeline' retrieved from /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:50:36.707+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:50:36.706+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-09-15T11:50:36.734+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:50:36.733+0000] {dag.py:3954} INFO - Setting next_dagrun for bike_hour_pipeline to 2025-09-14 00:00:00+00:00, run_after=2025-09-15 00:00:00+00:00
+[2025-09-15T11:50:36.767+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bike_hour_dag.py took 0.126 seconds
+[2025-09-15T11:51:07.602+0000] {processor.py:161} INFO - Started process (PID=10888) to work on /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:51:07.603+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bike_hour_dag.py for tasks to queue
+[2025-09-15T11:51:07.604+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:51:07.604+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:51:07.625+0000] {processor.py:840} INFO - DAG(s) 'bike_hour_pipeline' retrieved from /opt/airflow/dags/bike_hour_dag.py
+[2025-09-15T11:51:07.653+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:51:07.652+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-09-15T11:51:07.672+0000] {logging_mixin.py:188} INFO - [2025-09-15T11:51:07.672+0000] {dag.py:3954} INFO - Setting next_dagrun for bike_hour_pipeline to 2025-09-14 00:00:00+00:00, run_after=2025-09-15 00:00:00+00:00
+[2025-09-15T11:51:07.697+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bike_hour_dag.py took 0.100 seconds
