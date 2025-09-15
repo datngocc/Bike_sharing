@@ -1,0 +1,109 @@
+[2025-09-15T09:09:58.835+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-09-15T09:09:58.877+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: load_day_to_snowflake.load_day_data manual__2025-09-15T09:09:50.776899+00:00 [queued]>
+[2025-09-15T09:09:58.885+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: load_day_to_snowflake.load_day_data manual__2025-09-15T09:09:50.776899+00:00 [queued]>
+[2025-09-15T09:09:58.887+0000] {taskinstance.py:2303} INFO - Starting attempt 1 of 1
+[2025-09-15T09:09:58.900+0000] {taskinstance.py:2327} INFO - Executing <Task(SnowflakeOperator): load_day_data> on 2025-09-15 09:09:50.776899+00:00
+[2025-09-15T09:09:58.918+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=10488) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-09-15T09:09:58.921+0000] {standard_task_runner.py:63} INFO - Started process 10506 to run task
+[2025-09-15T09:09:58.919+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'load_day_to_snowflake', 'load_day_data', 'manual__2025-09-15T09:09:50.776899+00:00', '--job-id', '19', '--raw', '--subdir', 'DAGS_FOLDER/load_day_to_snowflake.py', '--cfg-path', '/tmp/tmpb1utdl7_']
+[2025-09-15T09:09:58.922+0000] {standard_task_runner.py:91} INFO - Job 19: Subtask load_day_data
+[2025-09-15T09:09:58.946+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/settings.py:195 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-09-15T09:09:59.085+0000] {task_command.py:426} INFO - Running <TaskInstance: load_day_to_snowflake.load_day_data manual__2025-09-15T09:09:50.776899+00:00 [running]> on host a8f1cc65ca9c
+[2025-09-15T09:09:59.326+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='datnguyen' AIRFLOW_CTX_DAG_ID='load_day_to_snowflake' AIRFLOW_CTX_TASK_ID='load_day_data' AIRFLOW_CTX_EXECUTION_DATE='2025-09-15T09:09:50.776899+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-09-15T09:09:50.776899+00:00'
+[2025-09-15T09:09:59.328+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-09-15T09:09:59.355+0000] {sql.py:276} INFO - Executing: 
+        COPY INTO FACT_BIKE_RENTALS_DAY (
+        DATE_KEY, SEASON_KEY, WEATHER_KEY, HOLIDAY_FLAG, WORKINGDAY_FLAG,
+        TEMPERATURE, FEELING_TEMP, HUMIDITY, WINDSPEED,
+        CASUAL_COUNT, REGISTERED_COUNT, TOTAL_COUNT
+    )
+    FROM @bike_stage/day_clean.csv
+    FILE_FORMAT = (TYPE=CSV SKIP_HEADER=1 FIELD_OPTIONALLY_ENCLOSED_BY='"' 
+                ERROR_ON_COLUMN_COUNT_MISMATCH=FALSE)
+    ON_ERROR = 'CONTINUE';
+    
+[2025-09-15T09:09:59.371+0000] {base.py:84} INFO - Using connection ID 'my_snowflake_conn' for task execution.
+[2025-09-15T09:09:59.386+0000] {base.py:84} INFO - Using connection ID 'my_snowflake_conn' for task execution.
+[2025-09-15T09:09:59.387+0000] {connection.py:386} INFO - Snowflake Connector for Python Version: 3.7.1, Python Version: 3.12.2, Platform: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2025-09-15T09:09:59.389+0000] {connection.py:1211} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-09-15T09:10:00.439+0000] {connection.py:547} WARNING - Certificate did not match expected hostname: mrugssx-tb22849.snowflakecomputing.com.snowflakecomputing.com. Certificate: {'subject': ((('commonName', '*.prod3.us-west-2.snowflakecomputing.com'),),), 'subjectAltName': [('DNS', '*.prod3.us-west-2.snowflakecomputing.com'), ('DNS', '*.us-west-2.snowflakecomputing.com'), ('DNS', '*.global.snowflakecomputing.com'), ('DNS', '*.snowflakecomputing.com'), ('DNS', '*.prod3.us-west-2.aws.snowflakecomputing.com')]}
+[2025-09-15T09:10:00.442+0000] {connectionpool.py:824} WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(CertificateError("hostname 'mrugssx-tb22849.snowflakecomputing.com.snowflakecomputing.com' doesn't match either of '*.prod3.us-west-2.snowflakecomputing.com', '*.us-west-2.snowflakecomputing.com', '*.global.snowflakecomputing.com', '*.snowflakecomputing.com', '*.prod3.us-west-2.aws.snowflakecomputing.com'"))': /session/v1/login-request?request_id=81f6915a-1039-4099-988a-ef77adf0a58d&databaseName=BIKESHARE_DW&schemaName=PUBLIC&warehouse=BIKESHARE_DW&roleName=&request_guid=9a9067e2-2523-45ec-a00f-0814cbfdb896
+[2025-09-15T09:10:01.145+0000] {connection.py:547} WARNING - Certificate did not match expected hostname: mrugssx-tb22849.snowflakecomputing.com.snowflakecomputing.com. Certificate: {'subject': ((('commonName', '*.prod3.us-west-2.snowflakecomputing.com'),),), 'subjectAltName': [('DNS', '*.prod3.us-west-2.snowflakecomputing.com'), ('DNS', '*.us-west-2.snowflakecomputing.com'), ('DNS', '*.global.snowflakecomputing.com'), ('DNS', '*.snowflakecomputing.com'), ('DNS', '*.prod3.us-west-2.aws.snowflakecomputing.com')]}
+[2025-09-15T09:10:01.156+0000] {network.py:1029} ERROR - Failed to get the response. Hanging? method: post, url: https://MRUGSSX-TB22849.snowflakecomputing.com.snowflakecomputing.com:443/session/v1/login-request?request_id=81f6915a-1039-4099-988a-ef77adf0a58d&databaseName=BIKESHARE_DW&schemaName=PUBLIC&warehouse=BIKESHARE_DW&roleName=&request_guid=9a9067e2-2523-45ec-a00f-0814cbfdb896, headers:{'Content-Type': 'application/json', 'accept': 'application/snowflake', 'User-Agent': 'PythonConnector/3.7.1 (Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.36) CPython/3.12.2', 'Content-Encoding': 'gzip'}, data: {"data": {"CLIENT_APP_ID": "PythonConnector", "CLIENT_APP_VERSION": "3.7.1", "SVN_REVISION": null, "ACCOUNT_NAME": "MRUGSSX-TB22849", "LOGIN_NAME": "datngoccc", "CLIENT_ENVIRONMENT": {"APPLICATION": "AIRFLOW", "OS": "Linux", "OS_VERSION": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.36", "PYTHON_VERSION": "3.12.2", "PYTHON_RUNTIME": "CPython", "PYTHON_COMPILER": "GCC 12.2.0", "OCSP_MODE": "FAIL_OPEN", "TRACING": 20, "LOGIN_TIMEOUT": null, "NETWORK_TIMEOUT": null, "SOCKET_TIMEOUT": null}, "PASSWORD": "**** "SESSION_PARAMETERS": {"CLIENT_PREFETCH_THREADS": 4}}}
+[2025-09-15T09:10:02.886+0000] {connection.py:547} WARNING - Certificate did not match expected hostname: mrugssx-tb22849.snowflakecomputing.com.snowflakecomputing.com. Certificate: {'subject': ((('commonName', '*.prod3.us-west-2.snowflakecomputing.com'),),), 'subjectAltName': [('DNS', '*.prod3.us-west-2.snowflakecomputing.com'), ('DNS', '*.us-west-2.snowflakecomputing.com'), ('DNS', '*.global.snowflakecomputing.com'), ('DNS', '*.snowflakecomputing.com'), ('DNS', '*.prod3.us-west-2.aws.snowflakecomputing.com')]}
+[2025-09-15T09:10:02.888+0000] {connectionpool.py:824} WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(CertificateError("hostname 'mrugssx-tb22849.snowflakecomputing.com.snowflakecomputing.com' doesn't match either of '*.prod3.us-west-2.snowflakecomputing.com', '*.us-west-2.snowflakecomputing.com', '*.global.snowflakecomputing.com', '*.snowflakecomputing.com', '*.prod3.us-west-2.aws.snowflakecomputing.com'"))': /session/v1/login-request?request_id=76721c58-b29d-418c-94ce-43cf79546708&databaseName=BIKESHARE_DW&schemaName=PUBLIC&warehouse=BIKESHARE_DW&roleName=&request_guid=a0e8b4ef-eb47-4504-9475-86dde985ac4a
+[2025-09-15T09:10:03.571+0000] {connection.py:547} WARNING - Certificate did not match expected hostname: mrugssx-tb22849.snowflakecomputing.com.snowflakecomputing.com. Certificate: {'subject': ((('commonName', '*.prod3.us-west-2.snowflakecomputing.com'),),), 'subjectAltName': [('DNS', '*.prod3.us-west-2.snowflakecomputing.com'), ('DNS', '*.us-west-2.snowflakecomputing.com'), ('DNS', '*.global.snowflakecomputing.com'), ('DNS', '*.snowflakecomputing.com'), ('DNS', '*.prod3.us-west-2.aws.snowflakecomputing.com')]}
+[2025-09-15T09:10:03.576+0000] {network.py:1029} ERROR - Failed to get the response. Hanging? method: post, url: https://MRUGSSX-TB22849.snowflakecomputing.com.snowflakecomputing.com:443/session/v1/login-request?request_id=76721c58-b29d-418c-94ce-43cf79546708&databaseName=BIKESHARE_DW&schemaName=PUBLIC&warehouse=BIKESHARE_DW&roleName=&request_guid=a0e8b4ef-eb47-4504-9475-86dde985ac4a, headers:{'Content-Type': 'application/json', 'accept': 'application/snowflake', 'User-Agent': 'PythonConnector/3.7.1 (Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.36) CPython/3.12.2', 'Content-Encoding': 'gzip'}, data: {"data": {"CLIENT_APP_ID": "PythonConnector", "CLIENT_APP_VERSION": "3.7.1", "SVN_REVISION": null, "ACCOUNT_NAME": "MRUGSSX-TB22849", "LOGIN_NAME": "datngoccc", "CLIENT_ENVIRONMENT": {"APPLICATION": "AIRFLOW", "OS": "Linux", "OS_VERSION": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.36", "PYTHON_VERSION": "3.12.2", "PYTHON_RUNTIME": "CPython", "PYTHON_COMPILER": "GCC 12.2.0", "OCSP_MODE": "FAIL_OPEN", "TRACING": 20, "LOGIN_TIMEOUT": null, "NETWORK_TIMEOUT": null, "SOCKET_TIMEOUT": null}, "PASSWORD": "**** "SESSION_PARAMETERS": {"CLIENT_PREFETCH_THREADS": 4}}}
+[2025-09-15T09:10:03.578+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-09-15T09:10:03.579+0000] {taskinstance.py:2890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 1345, in _authenticate
+    auth.authenticate(
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/auth/_auth.py", line 250, in authenticate
+    ret = self._rest._post_request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/network.py", line 734, in _post_request
+    ret = self.fetch(
+          ^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/network.py", line 843, in fetch
+    ret = self._request_exec_wrapper(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/network.py", line 979, in _request_exec_wrapper
+    raise e
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/network.py", line 895, in _request_exec_wrapper
+    self._handle_unknown_error(method, full_url, headers, data, conn)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/network.py", line 1034, in _handle_unknown_error
+    Error.errorhandler_wrapper(
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/errors.py", line 290, in errorhandler_wrapper
+    handed_over = Error.hand_to_other_handler(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/errors.py", line 348, in hand_to_other_handler
+    connection.errorhandler(connection, cursor, error_class, error_value)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/errors.py", line 221, in default_errorhandler
+    raise error_class(
+snowflake.connector.errors.OperationalError: 250003: 250003: Failed to get the response. Hanging? method: post, url: https://MRUGSSX-TB22849.snowflakecomputing.com.snowflakecomputing.com:443/session/v1/login-request?request_id=81f6915a-1039-4099-988a-ef77adf0a58d&databaseName=BIKESHARE_DW&schemaName=PUBLIC&warehouse=BIKESHARE_DW&roleName=&request_guid=9a9067e2-2523-45ec-a00f-0814cbfdb896
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 282, in execute
+    output = hook.run(
+             ^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/snowflake/hooks/snowflake.py", line 384, in run
+    with closing(self.get_conn()) as conn:
+                 ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/snowflake/hooks/snowflake.py", line 278, in get_conn
+    conn = connector.connect(**conn_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/__init__.py", line 54, in Connect
+    return SnowflakeConnection(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 429, in __init__
+    self.connect(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 719, in connect
+    self.__open_connection()
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 1045, in __open_connection
+    self.authenticate_with_retry(self.auth_class)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 1317, in authenticate_with_retry
+    self._authenticate(auth_instance)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 1389, in _authenticate
+    raise auth_op from e
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 1366, in _authenticate
+    auth_instance.handle_timeout(
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/auth/by_plugin.py", line 212, in handle_timeout
+    raise error
+snowflake.connector.errors.OperationalError: 250001: 250001: Could not connect to Snowflake backend after 2 attempt(s).Aborting
+[2025-09-15T09:10:03.594+0000] {taskinstance.py:1205} INFO - Marking task as FAILED. dag_id=load_day_to_snowflake, task_id=load_day_data, execution_date=20250915T090950, start_date=20250915T090958, end_date=20250915T091003
+[2025-09-15T09:10:03.607+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 19 for task load_day_data (250001: 250001: Could not connect to Snowflake backend after 2 attempt(s).Aborting; 10506)
+[2025-09-15T09:10:03.638+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2025-09-15T09:10:03.654+0000] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-09-15T09:10:03.657+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

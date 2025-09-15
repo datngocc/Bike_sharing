@@ -2,7 +2,7 @@ import os
 import pandas as pd
 
 # Đặt thư mục xuất qua biến môi trường 
-OUTPUT_DIR = os.getenv("OUTPUT_DIR", "MyProjectDE/data_output")
+OUTPUT_DIR = os.getenv("OUTPUT_DIR", "Bike_sharing/data_output")
 
 # Tạo dải ngày
 dates = pd.date_range(start='2011-01-01', end='2012-12-31')

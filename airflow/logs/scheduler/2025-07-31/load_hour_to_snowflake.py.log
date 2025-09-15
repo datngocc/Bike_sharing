@@ -3848,3 +3848,675 @@
 [2025-07-31T12:38:08.001+0000] {logging_mixin.py:188} INFO - [2025-07-31T12:38:08.000+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2025-07-31T12:38:08.028+0000] {logging_mixin.py:188} INFO - [2025-07-31T12:38:08.028+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
 [2025-07-31T12:38:08.058+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.158 seconds
+[2025-07-31T12:44:17.012+0000] {processor.py:161} INFO - Started process (PID=1208) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T12:44:17.013+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T12:44:17.016+0000] {logging_mixin.py:188} INFO - [2025-07-31T12:44:17.015+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T12:44:17.035+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T12:44:17.064+0000] {logging_mixin.py:188} INFO - [2025-07-31T12:44:17.063+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T12:44:17.078+0000] {logging_mixin.py:188} INFO - [2025-07-31T12:44:17.077+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T12:44:17.097+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.091 seconds
+[2025-07-31T13:00:50.815+0000] {processor.py:161} INFO - Started process (PID=170) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:00:50.818+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:00:50.822+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:00:50.821+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:00:50.857+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:00:50.894+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:00:50.893+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:00:50.908+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:00:50.907+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:00:50.933+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.131 seconds
+[2025-07-31T13:01:21.846+0000] {processor.py:161} INFO - Started process (PID=205) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:01:21.848+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:01:21.854+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:01:21.853+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:01:21.903+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:01:22.189+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:01:22.188+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:01:22.204+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:01:22.204+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:01:22.239+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.409 seconds
+[2025-07-31T13:01:52.513+0000] {processor.py:161} INFO - Started process (PID=280) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:01:52.514+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:01:52.517+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:01:52.517+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:01:52.537+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:01:52.571+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:01:52.570+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:01:52.582+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:01:52.582+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:01:52.605+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.097 seconds
+[2025-07-31T13:02:23.004+0000] {processor.py:161} INFO - Started process (PID=305) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:02:23.006+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:02:23.011+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:02:23.009+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:02:23.039+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:02:23.077+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:02:23.076+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:02:23.096+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:02:23.096+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:02:23.130+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.139 seconds
+[2025-07-31T13:02:53.990+0000] {processor.py:161} INFO - Started process (PID=344) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:02:53.992+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:02:53.997+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:02:53.996+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:02:54.026+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:02:54.071+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:02:54.070+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:02:54.090+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:02:54.089+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:02:54.119+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.146 seconds
+[2025-07-31T13:03:24.555+0000] {processor.py:161} INFO - Started process (PID=383) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:03:24.559+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:03:24.579+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:03:24.573+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:03:24.665+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:03:24.821+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:03:24.819+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:03:24.899+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:03:24.899+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:03:24.929+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.408 seconds
+[2025-07-31T13:03:55.779+0000] {processor.py:161} INFO - Started process (PID=418) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:03:55.781+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:03:55.786+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:03:55.785+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:03:55.828+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:03:55.875+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:03:55.874+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:03:55.896+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:03:55.896+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:03:55.933+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.163 seconds
+[2025-07-31T13:04:29.495+0000] {processor.py:161} INFO - Started process (PID=453) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:04:29.527+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:04:29.679+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:04:29.635+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:04:30.496+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:04:31.700+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:04:31.693+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:04:32.344+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:04:32.344+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:04:32.488+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 3.633 seconds
+[2025-07-31T13:05:02.682+0000] {processor.py:161} INFO - Started process (PID=498) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:05:02.683+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:05:02.686+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:05:02.685+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:05:02.734+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:05:02.792+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:05:02.792+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:05:02.819+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:05:02.818+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:05:02.852+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.183 seconds
+[2025-07-31T13:05:33.014+0000] {processor.py:161} INFO - Started process (PID=533) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:05:33.015+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:05:33.017+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:05:33.017+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:05:33.062+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:05:33.105+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:05:33.104+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:05:33.129+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:05:33.129+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:05:33.189+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.181 seconds
+[2025-07-31T13:06:03.826+0000] {processor.py:161} INFO - Started process (PID=558) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:06:03.831+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:06:03.843+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:06:03.840+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:06:03.928+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:06:04.023+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:06:04.023+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:06:04.054+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:06:04.053+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:06:04.102+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.338 seconds
+[2025-07-31T13:06:34.426+0000] {processor.py:161} INFO - Started process (PID=593) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:06:34.432+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:06:34.465+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:06:34.460+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:06:34.771+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:06:35.008+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:06:35.007+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:06:35.042+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:06:35.042+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:06:35.097+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.760 seconds
+[2025-07-31T13:07:05.264+0000] {processor.py:161} INFO - Started process (PID=631) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:07:05.269+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:07:05.276+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:07:05.275+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:07:05.340+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:07:05.420+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:07:05.419+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:07:05.450+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:07:05.450+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:07:05.484+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.243 seconds
+[2025-07-31T13:07:38.253+0000] {processor.py:161} INFO - Started process (PID=663) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:07:38.301+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:07:38.366+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:07:38.350+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:07:39.136+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:07:39.454+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:07:39.452+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:07:39.614+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:07:39.613+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:07:39.734+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 1.722 seconds
+[2025-07-31T13:08:10.282+0000] {processor.py:161} INFO - Started process (PID=698) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:08:10.306+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:08:10.349+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:08:10.340+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:08:10.602+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:08:10.891+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:08:10.890+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:08:11.019+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:08:11.018+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:08:11.452+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 1.243 seconds
+[2025-07-31T13:08:42.521+0000] {processor.py:161} INFO - Started process (PID=738) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:08:42.527+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:08:42.540+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:08:42.540+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:08:42.593+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:08:42.886+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:08:42.886+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:08:42.913+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:08:42.913+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:08:42.972+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.462 seconds
+[2025-07-31T13:09:13.597+0000] {processor.py:161} INFO - Started process (PID=773) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:09:13.599+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:09:13.601+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:09:13.600+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:09:13.622+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:09:13.657+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:09:13.656+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:09:13.732+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:09:13.731+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:09:13.797+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.206 seconds
+[2025-07-31T13:09:44.582+0000] {processor.py:161} INFO - Started process (PID=808) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:09:44.583+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:09:44.585+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:09:44.585+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:09:44.627+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:09:44.727+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:09:44.726+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:09:44.768+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:09:44.767+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:09:44.840+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.263 seconds
+[2025-07-31T13:10:15.524+0000] {processor.py:161} INFO - Started process (PID=843) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:10:15.526+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:10:15.528+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:10:15.528+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:10:15.549+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:10:15.588+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:10:15.587+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:10:15.613+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:10:15.612+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:10:15.653+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.135 seconds
+[2025-07-31T13:10:46.444+0000] {processor.py:161} INFO - Started process (PID=878) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:10:46.445+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:10:46.448+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:10:46.447+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:10:46.466+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:10:46.501+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:10:46.500+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:10:46.515+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:10:46.514+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:10:46.549+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.110 seconds
+[2025-07-31T13:11:17.409+0000] {processor.py:161} INFO - Started process (PID=913) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:11:17.410+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:11:17.412+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:11:17.412+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:11:17.435+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:11:17.474+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:11:17.473+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:11:17.489+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:11:17.489+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:11:17.514+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.111 seconds
+[2025-07-31T13:11:48.275+0000] {processor.py:161} INFO - Started process (PID=948) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:11:48.276+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:11:48.278+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:11:48.277+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:11:48.294+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:11:48.321+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:11:48.320+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:11:48.332+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:11:48.332+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:11:48.355+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.086 seconds
+[2025-07-31T13:12:19.031+0000] {processor.py:161} INFO - Started process (PID=983) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:12:19.032+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:12:19.035+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:12:19.035+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:12:19.054+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:12:19.118+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:12:19.112+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:12:19.157+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:12:19.156+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:12:19.211+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.186 seconds
+[2025-07-31T13:12:49.285+0000] {processor.py:161} INFO - Started process (PID=1018) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:12:49.286+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:12:49.288+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:12:49.288+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:12:49.305+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:12:49.332+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:12:49.332+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:12:49.344+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:12:49.344+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:12:49.363+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.083 seconds
+[2025-07-31T13:13:20.067+0000] {processor.py:161} INFO - Started process (PID=1053) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:13:20.069+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:13:20.071+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:13:20.070+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:13:20.091+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:13:20.126+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:13:20.125+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:13:20.141+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:13:20.140+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:13:20.174+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.113 seconds
+[2025-07-31T13:13:50.870+0000] {processor.py:161} INFO - Started process (PID=1088) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:13:50.871+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:13:50.873+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:13:50.873+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:13:50.893+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:13:50.924+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:13:50.923+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:13:50.938+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:13:50.937+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:13:50.967+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.102 seconds
+[2025-07-31T13:14:21.560+0000] {processor.py:161} INFO - Started process (PID=1123) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:14:21.562+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:14:21.569+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:14:21.568+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:14:21.601+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:14:21.648+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:14:21.646+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:14:21.667+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:14:21.666+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:14:21.732+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.183 seconds
+[2025-07-31T13:14:51.974+0000] {processor.py:161} INFO - Started process (PID=1158) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:14:51.975+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:14:51.978+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:14:51.978+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:14:51.994+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:14:52.023+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:14:52.023+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:14:52.037+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:14:52.037+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:14:52.064+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.096 seconds
+[2025-07-31T13:15:22.811+0000] {processor.py:161} INFO - Started process (PID=1193) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:15:22.813+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:15:22.820+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:15:22.819+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:15:22.874+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:15:22.943+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:15:22.942+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:15:22.960+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:15:22.959+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:15:23.015+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.214 seconds
+[2025-07-31T13:15:53.706+0000] {processor.py:161} INFO - Started process (PID=1228) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:15:53.707+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:15:53.710+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:15:53.709+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:15:53.728+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:15:53.754+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:15:53.754+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:15:53.765+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:15:53.765+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:15:53.785+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.085 seconds
+[2025-07-31T13:16:24.404+0000] {processor.py:161} INFO - Started process (PID=1263) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:16:24.405+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:16:24.407+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:16:24.406+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:16:24.422+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:16:24.447+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:16:24.447+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:16:24.459+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:16:24.458+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:16:24.487+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.089 seconds
+[2025-07-31T13:16:55.174+0000] {processor.py:161} INFO - Started process (PID=1298) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:16:55.175+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:16:55.177+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:16:55.177+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:16:55.207+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:16:55.298+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:16:55.295+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:16:55.326+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:16:55.325+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:16:55.396+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.227 seconds
+[2025-07-31T13:17:25.974+0000] {processor.py:161} INFO - Started process (PID=1333) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:17:25.975+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:17:25.977+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:17:25.977+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:17:25.993+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:17:26.018+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:17:26.018+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:17:26.029+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:17:26.029+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:17:26.048+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.080 seconds
+[2025-07-31T13:17:56.584+0000] {processor.py:161} INFO - Started process (PID=1368) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:17:56.586+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:17:56.588+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:17:56.588+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:17:56.605+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:17:56.632+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:17:56.632+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:17:56.644+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:17:56.644+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:17:56.662+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.084 seconds
+[2025-07-31T13:18:27.447+0000] {processor.py:161} INFO - Started process (PID=1403) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:18:27.448+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:18:27.452+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:18:27.451+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:18:27.477+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:18:27.519+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:18:27.518+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:18:27.535+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:18:27.535+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:18:27.567+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.131 seconds
+[2025-07-31T13:18:57.835+0000] {processor.py:161} INFO - Started process (PID=1438) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:18:57.838+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:18:57.844+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:18:57.842+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:18:57.910+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:18:58.083+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:18:58.077+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:18:58.140+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:18:58.140+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:18:58.217+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.396 seconds
+[2025-07-31T13:19:29.204+0000] {processor.py:161} INFO - Started process (PID=1473) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:19:29.207+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:19:29.217+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:19:29.214+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:19:29.259+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:19:29.329+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:19:29.329+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:19:29.370+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:19:29.368+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:19:29.439+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.250 seconds
+[2025-07-31T13:20:00.154+0000] {processor.py:161} INFO - Started process (PID=1508) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:20:00.155+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:20:00.157+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:20:00.157+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:20:00.173+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:20:00.199+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:20:00.199+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:20:00.211+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:20:00.211+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:20:00.229+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.080 seconds
+[2025-07-31T13:20:30.851+0000] {processor.py:161} INFO - Started process (PID=1543) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:20:30.852+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:20:30.854+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:20:30.854+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:20:30.872+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:20:30.898+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:20:30.898+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:20:30.911+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:20:30.911+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:20:30.930+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.085 seconds
+[2025-07-31T13:21:01.715+0000] {processor.py:161} INFO - Started process (PID=1578) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:21:01.716+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:21:01.718+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:21:01.718+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:21:01.736+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:21:01.763+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:21:01.762+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:21:01.775+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:21:01.775+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:21:01.794+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.088 seconds
+[2025-07-31T13:21:32.301+0000] {processor.py:161} INFO - Started process (PID=1613) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:21:32.302+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:21:32.305+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:21:32.304+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:21:32.327+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:21:32.361+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:21:32.360+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:21:32.379+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:21:32.379+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:21:32.400+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.105 seconds
+[2025-07-31T13:22:03.152+0000] {processor.py:161} INFO - Started process (PID=1648) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:22:03.153+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:22:03.155+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:22:03.155+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:22:03.173+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:22:03.199+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:22:03.199+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:22:03.209+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:22:03.209+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:22:03.227+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.082 seconds
+[2025-07-31T13:22:33.476+0000] {processor.py:161} INFO - Started process (PID=1683) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:22:33.477+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:22:33.479+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:22:33.479+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:22:33.498+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:22:33.732+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:22:33.728+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:22:33.854+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:22:33.854+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:22:33.932+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.462 seconds
+[2025-07-31T13:23:04.828+0000] {processor.py:161} INFO - Started process (PID=1718) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:23:04.829+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:23:04.833+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:23:04.833+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:23:04.850+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:23:04.877+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:23:04.876+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:23:04.917+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:23:04.916+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:23:05.080+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.287 seconds
+[2025-07-31T13:23:35.145+0000] {processor.py:161} INFO - Started process (PID=1753) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:23:35.146+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:23:35.148+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:23:35.148+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:23:35.169+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:23:35.294+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:23:35.293+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:23:35.323+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:23:35.323+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:23:35.344+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.206 seconds
+[2025-07-31T13:24:06.225+0000] {processor.py:161} INFO - Started process (PID=1788) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:24:06.226+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:24:06.229+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:24:06.228+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:24:06.254+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:24:06.301+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:24:06.300+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:24:06.321+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:24:06.321+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:24:06.349+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.131 seconds
+[2025-07-31T13:24:37.049+0000] {processor.py:161} INFO - Started process (PID=1823) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:24:37.051+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:24:37.053+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:24:37.052+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:24:37.069+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:24:37.097+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:24:37.096+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:24:37.109+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:24:37.109+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:24:37.137+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.094 seconds
+[2025-07-31T13:25:07.735+0000] {processor.py:161} INFO - Started process (PID=1858) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:25:07.736+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:25:07.738+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:25:07.738+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:25:07.753+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:25:07.784+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:25:07.784+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:25:07.797+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:25:07.796+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:25:07.814+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.085 seconds
+[2025-07-31T13:25:38.482+0000] {processor.py:161} INFO - Started process (PID=1893) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:25:38.483+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:25:38.485+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:25:38.484+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:25:38.500+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:25:38.526+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:25:38.525+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:25:38.537+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:25:38.537+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:25:38.558+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.081 seconds
+[2025-07-31T13:26:09.300+0000] {processor.py:161} INFO - Started process (PID=1928) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:26:09.301+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:26:09.303+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:26:09.303+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:26:09.321+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:26:09.350+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:26:09.349+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:26:09.363+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:26:09.363+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:26:09.382+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.088 seconds
+[2025-07-31T13:26:40.015+0000] {processor.py:161} INFO - Started process (PID=1963) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:26:40.016+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:26:40.018+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:26:40.018+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:26:40.035+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:26:40.060+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:26:40.059+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:26:40.072+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:26:40.072+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:26:40.091+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.082 seconds
+[2025-07-31T13:27:10.779+0000] {processor.py:161} INFO - Started process (PID=1998) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:27:10.780+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:27:10.782+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:27:10.781+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:27:10.800+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:27:10.828+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:27:10.827+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:27:10.858+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:27:10.857+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:27:10.889+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.116 seconds
+[2025-07-31T13:27:41.492+0000] {processor.py:161} INFO - Started process (PID=2033) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:27:41.493+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:27:41.495+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:27:41.494+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:27:41.511+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:27:41.538+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:27:41.538+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:27:41.550+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:27:41.550+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:27:41.569+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.084 seconds
+[2025-07-31T13:28:12.260+0000] {processor.py:161} INFO - Started process (PID=2068) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:28:12.261+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:28:12.263+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:28:12.263+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:28:12.280+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:28:12.306+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:28:12.305+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:28:12.317+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:28:12.316+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:28:12.335+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.080 seconds
+[2025-07-31T13:28:42.982+0000] {processor.py:161} INFO - Started process (PID=2103) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:28:42.983+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:28:42.985+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:28:42.985+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:28:43.001+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:28:43.026+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:28:43.026+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:28:43.038+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:28:43.037+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:28:43.057+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.081 seconds
+[2025-07-31T13:29:13.660+0000] {processor.py:161} INFO - Started process (PID=2138) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:29:13.661+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:29:13.663+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:29:13.663+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:29:13.679+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:29:13.704+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:29:13.703+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:29:13.717+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:29:13.716+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:29:13.735+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.080 seconds
+[2025-07-31T13:29:44.411+0000] {processor.py:161} INFO - Started process (PID=2173) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:29:44.412+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:29:44.414+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:29:44.414+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:29:44.431+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:29:44.460+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:29:44.460+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:29:44.472+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:29:44.472+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:29:44.489+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.084 seconds
+[2025-07-31T13:30:15.116+0000] {processor.py:161} INFO - Started process (PID=2208) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:30:15.117+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:30:15.119+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:30:15.119+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:30:15.134+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:30:15.162+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:30:15.161+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:30:15.173+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:30:15.173+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:30:15.191+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.080 seconds
+[2025-07-31T13:30:45.879+0000] {processor.py:161} INFO - Started process (PID=2243) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:30:45.880+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:30:45.882+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:30:45.882+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:30:45.901+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:30:45.943+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:30:45.942+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:30:45.960+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:30:45.959+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:30:45.981+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.108 seconds
+[2025-07-31T13:31:16.713+0000] {processor.py:161} INFO - Started process (PID=2278) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:31:16.714+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:31:16.716+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:31:16.715+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:31:16.730+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:31:16.763+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:31:16.763+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:31:16.776+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:31:16.776+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:31:16.793+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.086 seconds
+[2025-07-31T13:31:47.372+0000] {processor.py:161} INFO - Started process (PID=2313) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:31:47.374+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:31:47.376+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:31:47.375+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:31:47.395+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:31:47.425+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:31:47.425+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:31:47.438+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:31:47.438+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:31:47.459+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.092 seconds
+[2025-07-31T13:32:18.113+0000] {processor.py:161} INFO - Started process (PID=2348) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:32:18.114+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:32:18.116+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:32:18.115+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:32:18.132+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:32:18.158+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:32:18.157+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:32:18.169+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:32:18.169+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:32:18.187+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.080 seconds
+[2025-07-31T13:32:48.788+0000] {processor.py:161} INFO - Started process (PID=2383) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:32:48.789+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:32:48.793+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:32:48.792+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:32:48.808+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:32:48.835+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:32:48.835+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:32:48.849+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:32:48.848+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:32:48.866+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.083 seconds
+[2025-07-31T13:33:19.631+0000] {processor.py:161} INFO - Started process (PID=2418) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:33:19.632+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:33:19.633+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:33:19.633+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:33:19.649+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:33:19.674+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:33:19.673+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:33:19.685+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:33:19.685+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:33:19.707+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.082 seconds
+[2025-07-31T13:33:50.547+0000] {processor.py:161} INFO - Started process (PID=2453) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:33:50.548+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:33:50.550+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:33:50.550+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:33:50.566+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:33:50.593+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:33:50.593+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:33:50.605+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:33:50.605+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:33:50.626+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.085 seconds
+[2025-07-31T13:34:21.204+0000] {processor.py:161} INFO - Started process (PID=2488) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:34:21.205+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:34:21.207+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:34:21.207+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:34:21.224+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:34:21.255+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:34:21.254+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:34:21.267+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:34:21.267+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:34:21.290+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.093 seconds
+[2025-07-31T13:34:51.878+0000] {processor.py:161} INFO - Started process (PID=2523) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:34:51.880+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:34:51.882+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:34:51.881+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:34:51.897+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:34:51.925+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:34:51.925+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:34:51.936+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:34:51.936+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:34:51.956+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.083 seconds
+[2025-07-31T13:35:22.638+0000] {processor.py:161} INFO - Started process (PID=2558) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:35:22.643+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:35:22.645+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:35:22.645+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:35:22.661+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:35:22.686+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:35:22.685+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:35:22.696+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:35:22.696+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:35:22.713+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.080 seconds
+[2025-07-31T13:35:53.509+0000] {processor.py:161} INFO - Started process (PID=2593) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:35:53.511+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:35:53.513+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:35:53.513+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:35:53.530+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:35:53.558+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:35:53.557+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:35:53.568+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:35:53.568+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:35:53.587+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.085 seconds
+[2025-07-31T13:36:24.224+0000] {processor.py:161} INFO - Started process (PID=2628) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:36:24.225+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:36:24.227+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:36:24.227+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:36:24.245+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:36:24.271+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:36:24.271+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:36:24.282+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:36:24.282+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:36:24.302+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.085 seconds
+[2025-07-31T13:36:55.016+0000] {processor.py:161} INFO - Started process (PID=2663) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:36:55.017+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:36:55.019+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:36:55.019+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:36:55.036+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:36:55.062+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:36:55.061+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:36:55.073+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:36:55.073+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:36:55.093+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.083 seconds
+[2025-07-31T13:37:25.787+0000] {processor.py:161} INFO - Started process (PID=2698) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:37:25.789+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:37:25.794+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:37:25.793+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:37:25.856+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:37:25.908+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:37:25.908+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:37:25.929+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:37:25.929+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:37:25.953+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.175 seconds
+[2025-07-31T13:37:56.751+0000] {processor.py:161} INFO - Started process (PID=2733) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:37:56.752+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:37:56.756+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:37:56.756+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:37:56.775+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:37:56.811+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:37:56.811+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:37:56.829+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:37:56.829+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:37:56.860+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.116 seconds
+[2025-07-31T13:38:27.609+0000] {processor.py:161} INFO - Started process (PID=2768) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:38:27.610+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:38:27.613+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:38:27.613+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:38:27.634+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:38:27.675+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:38:27.675+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:38:27.700+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:38:27.700+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:38:27.731+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.129 seconds
+[2025-07-31T13:38:58.558+0000] {processor.py:161} INFO - Started process (PID=2803) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:38:58.559+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:38:58.562+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:38:58.562+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:38:58.582+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:38:58.609+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:38:58.609+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:38:58.621+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:38:58.621+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:38:58.640+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.088 seconds
+[2025-07-31T13:39:29.245+0000] {processor.py:161} INFO - Started process (PID=2838) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:39:29.246+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:39:29.250+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:39:29.249+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:39:29.274+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:39:29.306+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:39:29.306+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:39:29.319+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:39:29.319+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:39:29.348+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.110 seconds
+[2025-07-31T13:40:00.090+0000] {processor.py:161} INFO - Started process (PID=2873) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:40:00.091+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:40:00.093+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:40:00.093+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:40:00.108+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:40:00.133+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:40:00.132+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:40:00.143+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:40:00.143+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:40:00.163+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.078 seconds
+[2025-07-31T13:40:30.861+0000] {processor.py:161} INFO - Started process (PID=2908) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:40:30.862+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:40:30.864+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:40:30.864+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:40:30.881+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:40:30.908+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:40:30.908+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:40:30.919+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:40:30.919+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:40:30.937+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.081 seconds
+[2025-07-31T13:41:01.798+0000] {processor.py:161} INFO - Started process (PID=2943) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:41:01.798+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:41:01.800+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:41:01.800+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:41:01.815+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:41:01.840+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:41:01.840+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:41:01.850+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:41:01.850+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:41:01.868+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.076 seconds
+[2025-07-31T13:41:32.466+0000] {processor.py:161} INFO - Started process (PID=2978) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:41:32.467+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:41:32.469+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:41:32.469+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:41:32.485+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:41:32.509+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:41:32.509+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:41:32.520+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:41:32.520+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:41:32.536+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.075 seconds
+[2025-07-31T13:42:03.196+0000] {processor.py:161} INFO - Started process (PID=3013) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:42:03.197+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:42:03.205+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:42:03.205+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:42:03.234+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:42:03.305+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:42:03.303+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:42:03.329+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:42:03.329+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:42:03.364+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.179 seconds
+[2025-07-31T13:42:34.049+0000] {processor.py:161} INFO - Started process (PID=3048) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:42:34.050+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:42:34.052+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:42:34.051+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:42:34.067+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:42:34.106+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:42:34.105+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:42:34.126+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:42:34.126+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:42:34.153+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.110 seconds
+[2025-07-31T13:43:04.918+0000] {processor.py:161} INFO - Started process (PID=3083) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:43:04.920+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:43:04.922+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:43:04.922+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:43:04.953+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:43:04.995+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:43:04.993+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:43:05.012+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:43:05.011+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:43:05.034+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.126 seconds
+[2025-07-31T13:43:35.138+0000] {processor.py:161} INFO - Started process (PID=3118) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:43:35.139+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:43:35.141+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:43:35.141+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:43:35.156+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:43:35.183+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:43:35.182+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:43:35.199+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:43:35.198+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:43:35.254+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.122 seconds
+[2025-07-31T13:44:05.398+0000] {processor.py:161} INFO - Started process (PID=3153) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:44:05.400+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:44:05.404+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:44:05.402+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:44:05.431+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:44:05.458+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:44:05.458+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:44:05.469+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:44:05.468+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:44:05.485+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.094 seconds
+[2025-07-31T13:44:36.068+0000] {processor.py:161} INFO - Started process (PID=3188) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:44:36.072+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:44:36.080+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:44:36.079+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:44:36.107+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:44:36.149+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:44:36.148+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:44:36.165+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:44:36.165+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:44:36.183+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.135 seconds
+[2025-07-31T13:45:06.847+0000] {processor.py:161} INFO - Started process (PID=3223) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:45:06.848+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:45:06.850+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:45:06.850+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:45:06.866+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:45:06.890+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:45:06.889+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:45:06.899+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:45:06.899+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:45:06.917+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.074 seconds
+[2025-07-31T13:45:37.657+0000] {processor.py:161} INFO - Started process (PID=3258) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:45:37.661+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:45:37.667+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:45:37.667+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:45:37.695+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:45:37.731+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:45:37.730+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:45:37.747+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:45:37.747+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:45:37.769+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.125 seconds
+[2025-07-31T13:46:08.744+0000] {processor.py:161} INFO - Started process (PID=3293) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:46:08.746+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:46:08.748+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:46:08.747+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:46:08.764+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:46:08.790+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:46:08.790+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:46:08.804+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:46:08.804+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:46:08.822+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.086 seconds
+[2025-07-31T13:46:39.436+0000] {processor.py:161} INFO - Started process (PID=3328) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:46:39.438+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:46:39.440+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:46:39.440+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:46:39.459+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:46:39.486+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:46:39.486+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:46:39.497+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:46:39.496+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:46:39.511+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.081 seconds
+[2025-07-31T13:47:10.262+0000] {processor.py:161} INFO - Started process (PID=3363) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:47:10.266+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:47:10.269+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:47:10.269+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:47:10.302+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:47:10.370+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:47:10.368+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:47:10.395+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:47:10.394+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:47:10.430+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.177 seconds
+[2025-07-31T13:47:40.971+0000] {processor.py:161} INFO - Started process (PID=3398) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:47:40.972+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:47:40.974+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:47:40.973+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:47:40.989+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:47:41.013+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:47:41.012+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:47:41.023+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:47:41.023+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:47:41.039+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.074 seconds
+[2025-07-31T13:48:11.600+0000] {processor.py:161} INFO - Started process (PID=3433) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:48:11.601+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:48:11.604+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:48:11.604+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:48:11.626+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:48:11.654+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:48:11.653+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:48:11.668+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:48:11.668+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:48:11.689+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.096 seconds
+[2025-07-31T13:48:42.296+0000] {processor.py:161} INFO - Started process (PID=3468) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:48:42.298+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:48:42.300+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:48:42.299+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:48:42.314+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:48:42.339+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:48:42.338+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:48:42.350+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:48:42.350+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:48:42.368+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.078 seconds
+[2025-07-31T13:49:12.961+0000] {processor.py:161} INFO - Started process (PID=3503) to work on /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:49:12.962+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_hour_to_snowflake.py for tasks to queue
+[2025-07-31T13:49:12.964+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:49:12.964+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:49:12.978+0000] {processor.py:840} INFO - DAG(s) 'load_hour_to_snowflake' retrieved from /opt/airflow/dags/load_hour_to_snowflake.py
+[2025-07-31T13:49:13.001+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:49:13.001+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-31T13:49:13.012+0000] {logging_mixin.py:188} INFO - [2025-07-31T13:49:13.012+0000] {dag.py:3954} INFO - Setting next_dagrun for load_hour_to_snowflake to None, run_after=None
+[2025-07-31T13:49:13.029+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_hour_to_snowflake.py took 0.072 seconds

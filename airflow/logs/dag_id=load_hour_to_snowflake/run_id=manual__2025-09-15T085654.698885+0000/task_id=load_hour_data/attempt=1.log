@@ -1,0 +1,100 @@
+[2025-09-15T08:57:00.713+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-09-15T08:57:00.788+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: load_hour_to_snowflake.load_hour_data manual__2025-09-15T08:56:54.698885+00:00 [queued]>
+[2025-09-15T08:57:00.796+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: load_hour_to_snowflake.load_hour_data manual__2025-09-15T08:56:54.698885+00:00 [queued]>
+[2025-09-15T08:57:00.798+0000] {taskinstance.py:2303} INFO - Starting attempt 1 of 1
+[2025-09-15T08:57:00.814+0000] {taskinstance.py:2327} INFO - Executing <Task(SnowflakeOperator): load_hour_data> on 2025-09-15 08:56:54.698885+00:00
+[2025-09-15T08:57:00.832+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=9554) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-09-15T08:57:00.835+0000] {standard_task_runner.py:63} INFO - Started process 9557 to run task
+[2025-09-15T08:57:00.834+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'load_hour_to_snowflake', 'load_hour_data', 'manual__2025-09-15T08:56:54.698885+00:00', '--job-id', '13', '--raw', '--subdir', 'DAGS_FOLDER/load_hour_to_snowflake.py', '--cfg-path', '/tmp/tmpin2oi1wr']
+[2025-09-15T08:57:00.839+0000] {standard_task_runner.py:91} INFO - Job 13: Subtask load_hour_data
+[2025-09-15T08:57:00.894+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/settings.py:195 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-09-15T08:57:00.993+0000] {task_command.py:426} INFO - Running <TaskInstance: load_hour_to_snowflake.load_hour_data manual__2025-09-15T08:56:54.698885+00:00 [running]> on host a8f1cc65ca9c
+[2025-09-15T08:57:01.282+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='datnguyen' AIRFLOW_CTX_DAG_ID='load_hour_to_snowflake' AIRFLOW_CTX_TASK_ID='load_hour_data' AIRFLOW_CTX_EXECUTION_DATE='2025-09-15T08:56:54.698885+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-09-15T08:56:54.698885+00:00'
+[2025-09-15T08:57:01.285+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-09-15T08:57:01.309+0000] {sql.py:276} INFO - Executing: 
+        COPY INTO FACT_BIKE_RENTALS_HOUR (
+        DATETIME_KEY, DATE_KEY, HOUR_KEY,
+        SEASON_KEY, WEATHER_KEY, HOLIDAY_FLAG, WORKINGDAY_FLAG,
+        TEMPERATURE, FEELING_TEMP, HUMIDITY, WINDSPEED,
+        CASUAL, REGISTERED, TOTAL_COUNT
+    )
+    FROM @bike_stage/hour_clean.csv
+    FILE_FORMAT = (
+        TYPE = CSV
+        SKIP_HEADER = 1
+        FIELD_OPTIONALLY_ENCLOSED_BY = '"'
+        ERROR_ON_COLUMN_COUNT_MISMATCH = FALSE
+    )
+    ON_ERROR = 'CONTINUE';
+    
+[2025-09-15T08:57:01.331+0000] {base.py:84} INFO - Using connection ID 'my_snowflake_conn' for task execution.
+[2025-09-15T08:57:01.361+0000] {base.py:84} INFO - Using connection ID 'my_snowflake_conn' for task execution.
+[2025-09-15T08:57:01.361+0000] {connection.py:386} INFO - Snowflake Connector for Python Version: 3.7.1, Python Version: 3.12.2, Platform: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2025-09-15T08:57:01.363+0000] {connection.py:1211} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-09-15T08:57:02.661+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-09-15T08:57:02.662+0000] {taskinstance.py:2890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 282, in execute
+    output = hook.run(
+             ^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/snowflake/hooks/snowflake.py", line 384, in run
+    with closing(self.get_conn()) as conn:
+                 ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/snowflake/hooks/snowflake.py", line 278, in get_conn
+    conn = connector.connect(**conn_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/__init__.py", line 54, in Connect
+    return SnowflakeConnection(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 429, in __init__
+    self.connect(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 719, in connect
+    self.__open_connection()
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 1045, in __open_connection
+    self.authenticate_with_retry(self.auth_class)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 1317, in authenticate_with_retry
+    self._authenticate(auth_instance)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/connection.py", line 1345, in _authenticate
+    auth.authenticate(
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/auth/_auth.py", line 250, in authenticate
+    ret = self._rest._post_request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/network.py", line 734, in _post_request
+    ret = self.fetch(
+          ^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/network.py", line 843, in fetch
+    ret = self._request_exec_wrapper(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/network.py", line 979, in _request_exec_wrapper
+    raise e
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/network.py", line 884, in _request_exec_wrapper
+    return_object = self._request_exec(
+                    ^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/network.py", line 1193, in _request_exec
+    raise err
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/network.py", line 1135, in _request_exec
+    raise_failed_request_error(
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/network.py", line 238, in raise_failed_request_error
+    Error.errorhandler_wrapper(
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/errors.py", line 290, in errorhandler_wrapper
+    handed_over = Error.hand_to_other_handler(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/errors.py", line 348, in hand_to_other_handler
+    connection.errorhandler(connection, cursor, error_class, error_value)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/errors.py", line 221, in default_errorhandler
+    raise error_class(
+snowflake.connector.errors.InterfaceError: 250003 (08001): None: 404 Not Found: post https://TB22849.snowflakecomputing.com:443/session/v1/login-request?request_id=e697b65e-7f74-4346-9b3b-4d9dd1c99d43&databaseName=BIKESHARE_DW&schemaName=&warehouse=BIKESHARE_DW&roleName=&request_guid=c2683673-371d-4098-9960-0fd30232a7a5
+[2025-09-15T08:57:02.679+0000] {taskinstance.py:1205} INFO - Marking task as FAILED. dag_id=load_hour_to_snowflake, task_id=load_hour_data, execution_date=20250915T085654, start_date=20250915T085700, end_date=20250915T085702
+[2025-09-15T08:57:02.701+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 13 for task load_hour_data (250003 (08001): None: 404 Not Found: post https://TB22849.snowflakecomputing.com:443/session/v1/login-request?request_id=e697b65e-7f74-4346-9b3b-4d9dd1c99d43&databaseName=BIKESHARE_DW&schemaName=&warehouse=BIKESHARE_DW&roleName=&request_guid=c2683673-371d-4098-9960-0fd30232a7a5; 9557)
+[2025-09-15T08:57:02.752+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2025-09-15T08:57:02.776+0000] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-09-15T08:57:02.780+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
